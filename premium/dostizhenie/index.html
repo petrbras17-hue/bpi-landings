@@ -1839,6 +1839,45 @@
             background: var(--off-white);
         }
 
+        /* ===== SECTION: VIDEO ===== */
+        .video-section {
+            padding: var(--space-lg) 0;
+            background: var(--off-white);
+        }
+        .video-section__inner {
+            max-width: 1240px;
+            margin: 0 auto;
+            padding: 0 var(--space-md);
+        }
+        .video-section__header {
+            text-align: center;
+            margin-bottom: var(--space-md);
+        }
+        .video-section__label {
+            margin-bottom: 16px;
+        }
+        .video-section__caption {
+            margin-top: 16px;
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-align: center;
+        }
+        .video-section__frame {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            border-radius: 4px;
+            overflow: hidden;
+            background: #000;
+            box-shadow: 0 24px 64px rgba(0, 0, 0, 0.18);
+        }
+        .video-section__video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
         /* ===== FOOTER (Dark) ===== */
         .footer {
             padding: var(--space-lg) 0;
@@ -2363,25 +2402,25 @@
 
         <div class="gallery__track" id="galleryTrack">
             <div class="gallery__slide" data-index="0">
-                <img src="images/img_1.jpg" alt="Достижение Sminex — панорама дома на Проспекте Мира" loading="lazy">
+                <img src="images/img_1.jpg" alt="Достижение Sminex — авторская архитектура и готические фасады дома на Проспекте Мира" loading="lazy">
             </div>
             <div class="gallery__slide" data-index="1">
-                <img src="images/img_4.jpg" alt="Достижение Sminex — авторские фасады в Останкинском районе" loading="lazy">
+                <img src="images/img_2.jpg" alt="Достижение Sminex — крупный план фасада с готическими шпилями в Останкинском районе" loading="lazy">
             </div>
             <div class="gallery__slide" data-index="2">
-                <img src="images/img_6.jpg" alt="Достижение Sminex — приватный двор у парка ВДНХ" loading="lazy">
+                <img src="images/img_3.jpg" alt="Достижение Sminex — общий вид жилого комплекса на закате, Проспект Мира" loading="lazy">
             </div>
             <div class="gallery__slide" data-index="3">
-                <img src="images/img_5.jpg" alt="Достижение Sminex — архитектурные детали" loading="lazy">
+                <img src="images/img_4.jpg" alt="Достижение Sminex — терраса пентхауса с прямым видом на Останкинскую телебашню" loading="lazy">
             </div>
             <div class="gallery__slide" data-index="4">
-                <img src="images/img_7.jpg" alt="Достижение Sminex — благоустройство и ландшафт" loading="lazy">
+                <img src="images/img_5.jpg" alt="Достижение Sminex — панорама с высоты на Останкинскую башню, парк ВДНХ и Останкино" loading="lazy">
             </div>
             <div class="gallery__slide" data-index="5">
-                <img src="images/img_3.jpg" alt="Достижение Sminex — вид на Останкинскую башню" loading="lazy">
+                <img src="images/img_6.jpg" alt="Достижение Sminex — приватный двор без машин с фонтаном и авторским ландшафтом" loading="lazy">
             </div>
             <div class="gallery__slide" data-index="6">
-                <img src="images/img_2.jpg" alt="Достижение Sminex — вечерний вид дома" loading="lazy">
+                <img src="images/img_7.jpg" alt="Достижение Sminex — парк ВДНХ в нескольких минутах от дома, СВАО Москвы" loading="lazy">
             </div>
         </div>
 
@@ -2404,6 +2443,22 @@
             </button>
         </div>
     </div>
+
+    <!-- ===== SECTION: VIDEO ===== -->
+    <section class="video-section" id="video">
+        <div class="video-section__inner">
+            <div class="video-section__header reveal">
+                <p class="label video-section__label">Видео</p>
+                <h2 class="heading-lg">Жизнь рядом с парком ВДНХ и Останкино</h2>
+            </div>
+            <div class="video-section__frame reveal">
+                <video class="video-section__video" autoplay muted loop playsinline preload="metadata" poster="images/img_7.jpg">
+                    <source src="images/family-2.mp4" type="video/mp4">
+                </video>
+            </div>
+            <p class="video-section__caption reveal">«Достижение» Sminex — Останкинский район, СВАО, в нескольких минутах от ВДНХ и Главного ботанического сада РАН.</p>
+        </div>
+    </section>
 
     <!-- CTA Break -->
     <div class="cta-section reveal">

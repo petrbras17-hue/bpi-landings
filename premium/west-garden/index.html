@@ -885,6 +885,37 @@
             object-fit: cover;
         }
 
+        /* Video section */
+        .video-section {
+            padding: var(--space-xl) 0 var(--space-2xl);
+            background: var(--white);
+        }
+        .video-section__inner {
+            max-width: 1240px;
+            margin: 0 auto;
+            padding: 0 var(--space-md);
+        }
+        .video-section__header {
+            margin-bottom: var(--space-md);
+        }
+        .video-section__label {
+            margin-bottom: 12px;
+        }
+        .video-section__frame {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            background: #0b0d0f;
+            overflow: hidden;
+            border-radius: 4px;
+        }
+        .video-section__frame video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
         /* Fullscreen gallery (lightbox) */
         .gallery-fullscreen {
             display: none;
@@ -2363,29 +2394,42 @@
 
         <div class="gallery__track" id="galleryTrack">
             <div class="gallery__slide" data-index="0">
-                <img src="images/img_1.jpg" alt="West Garden -- панорама квартала" loading="lazy">
+                <img src="images/img_1.jpg" alt="West Garden -- общий вид квартала клубных домов с парком в Раменках" loading="lazy">
             </div>
             <div class="gallery__slide" data-index="1">
-                <img src="images/img_4.jpg" alt="West Garden -- фасады" loading="lazy">
+                <img src="images/img_2.jpg" alt="West Garden -- панорама квартала, дворы и собственный парк" loading="lazy">
             </div>
             <div class="gallery__slide" data-index="2">
-                <img src="images/img_6.jpg" alt="West Garden -- двор-парк" loading="lazy">
+                <img src="images/img_3.jpg" alt="West Garden -- фасады клубных домов из натурального камня и клинкера" loading="lazy">
             </div>
             <div class="gallery__slide" data-index="3">
-                <img src="images/img_5.jpg" alt="West Garden -- архитектура" loading="lazy">
+                <img src="images/img_4.jpg" alt="West Garden -- архитектура клубных домов и закрытые дворы" loading="lazy">
             </div>
             <div class="gallery__slide" data-index="4">
-                <img src="images/img_7.jpg" alt="West Garden -- благоустройство" loading="lazy">
+                <img src="images/img_5.jpg" alt="West Garden -- собственный парк и природные ландшафты" loading="lazy">
             </div>
             <div class="gallery__slide" data-index="5">
-                <img src="images/img_3.jpg" alt="West Garden -- территория" loading="lazy">
+                <img src="images/img_6.jpg" alt="West Garden -- инфраструктура квартала и детские пространства" loading="lazy">
             </div>
             <div class="gallery__slide" data-index="6">
-                <img src="images/img_2.jpg" alt="West Garden -- вечерний вид" loading="lazy">
+                <img src="images/img_7.jpg" alt="West Garden -- виды на Москва-Сити и метро Минская в шаговой доступности" loading="lazy">
             </div>
         </div>
 
         <div class="gallery__thumbnails" id="galleryThumbnails"></div>
+    </section>
+
+    <!-- ===== SECTION: VIDEO ===== -->
+    <section class="video-section" id="video">
+        <div class="video-section__inner">
+            <div class="video-section__header reveal">
+                <p class="label video-section__label">Видео квартала</p>
+                <h2 class="heading-lg">West Garden в движении</h2>
+            </div>
+            <div class="video-section__frame reveal">
+                <video src="homepage-video.mp4" controls preload="metadata" playsinline poster="images/img_1.jpg" aria-label="Видео квартала West Garden -- общий вид, фасады клубных домов и парк"></video>
+            </div>
+        </div>
     </section>
 
     <!-- Fullscreen gallery lightbox -->
