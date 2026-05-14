@@ -3702,7 +3702,7 @@
 /* ── FLOATING PULSE BUTTON ── */
 .pulse-wrap {
   position: fixed;
-  bottom: 230px;
+  bottom: 240px; /* clears .floating stack: 24px + 160px (3 btns + 2 gaps) + 16px gap = 200px min; raised to 240px for safety */
   right: 24px;
   z-index: 999;
 }
@@ -3925,12 +3925,14 @@
   .sticky-mobile-cta { display: flex; }
   /* Hide top sticky-cta on mobile to avoid double bars */
   .sticky-cta { display: none !important; }
-  /* Move pulse btn well above mobile bottom CTA */
-  .pulse-wrap { bottom: 88px; right: 16px; }
+  /* Move pulse btn above .floating stack (bottom 90px + ~160px stack + 16px gap = 266px) */
+  .pulse-wrap { bottom: 266px; right: 16px; }
   /* Hide scarcity popup on mobile (overlaps with sticky CTA + pulse) */
   .scarcity-popup { left: 12px; right: 12px; max-width: none; bottom: 84px; }
 }
 @media (max-width: 480px) {
+  /* Hide pulse on small mobile — phone is already in sticky-mobile-cta */
+  .pulse-wrap { display: none !important; }
   .scarcity-popup { bottom: 80px; padding: 14px 18px; }
   .scarcity-text { font-size: 13px; }
 }

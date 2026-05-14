@@ -3624,9 +3624,13 @@
 /* ── FLOATING PULSE BUTTON ── */
 .pulse-wrap {
   position: fixed;
-  bottom: 210px;
+  bottom: 200px;
   right: 24px;
   z-index: 999;
+  transition: bottom 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+body.sticky-visible .pulse-wrap {
+  bottom: 268px;
 }
 .pulse-wrap a {
   display: flex;
@@ -3801,11 +3805,11 @@
 
 /* ── STICKY CTA duplicate styles removed — see primary .sticky-cta in main <style> ── */
 @media (max-width: 768px) {
-  .pulse-wrap { bottom: 140px; }
+  .pulse-wrap { bottom: 200px; right: 14px; }
+  body.sticky-visible .pulse-wrap { bottom: 254px; }
 }
 @media (max-width: 480px) {
-  .pulse-wrap { bottom: 130px; right: 14px; }
-  .pulse-wrap a { width: 48px; height: 48px; }
+  .pulse-wrap { display: none; }
 }
 </style>
 

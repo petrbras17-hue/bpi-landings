@@ -3870,13 +3870,14 @@
 }
 @media (max-width: 768px) {
   .sticky-cta { display: flex; }
-  .pulse-wrap { bottom: 96px; right: 16px; }
+  /* .floating bottom 150px + stack ~144px (3 btns 42+42+40 + 2×10gap) + 16px gap = 310px */
+  .pulse-wrap { bottom: 310px; right: 16px; }
   .pulse-wrap a { width: 52px; height: 52px; }
   .scarcity-popup { left: 12px; right: 12px; max-width: none; bottom: 160px; padding: 16px 20px; }
 }
 @media (max-width: 480px) {
-  .pulse-wrap { bottom: 90px; right: 12px; }
-  .pulse-wrap a { width: 48px; height: 48px; }
+  /* phone CTA уже есть в sticky-cta снизу — прячем pulse чтобы не перегружать UI */
+  .pulse-wrap { display: none; }
 }
 </style>
 

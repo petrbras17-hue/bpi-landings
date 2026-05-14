@@ -3632,7 +3632,7 @@
 /* ── FLOATING PULSE BUTTON ── */
 .pulse-wrap {
   position: fixed;
-  bottom: 210px;
+  bottom: 220px;
   right: 24px;
   z-index: 999;
 }
@@ -3809,7 +3809,10 @@
 
 /* ── STICKY BOTTOM CTA legacy block removed (was conflicting with primary .sticky-cta above) ── */
 @media (max-width: 768px) {
-  .pulse-wrap { bottom: 140px; }
+  .pulse-wrap { bottom: 200px; }
+}
+@media (max-width: 480px) {
+  .pulse-wrap { display: none; }
 }
 </style>
 
