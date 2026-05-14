@@ -1,0 +1,3631 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="CLOS 17 — Закрытый особняк в сердце Москвы. Москва, Староваганьковский переулок, 17">
+<meta name="theme-color" content="#3D3D35">
+<title>CLOS 17 — Закрытый особняк в сердце Москвы</title>
+
+<!-- Fonts: EB Garamond (headlines) + Source Serif 4 (body) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,8..60,300;1,8..60,400&display=swap" rel="stylesheet">
+
+<!-- Schema.org structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RealEstateListing",
+  "name": "CLOS 17",
+  "description": "Закрытый особняк в сердце Москвы",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Москва, Староваганьковский переулок, 17",
+    "addressLocality": "",
+    "addressCountry": "RU"
+  },
+  "offers": {
+    "@type": "Offer",
+    "seller": {
+      "@type": "Organization",
+      "name": ""
+    }
+  }
+}
+</script>
+
+<style>
+/* ============================================================
+   BPI LANDING V4 — BRUSOV.MOSCOW REFERENCE
+   Dark hero, white content, editorial photography, dashed SVG lines
+   ============================================================ */
+
+/* ────────────────────────────────────────────────────────────
+   CSS RESET
+   ──────────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #333333;
+  font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  line-height: 1.85;
+  overflow-x: hidden;
+  position: relative;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  outline: none;
+  background: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+::selection {
+  background: #D4CFC9;
+  color: #333333;
+}
+
+
+/* ────────────────────────────────────────────────────────────
+   DESIGN TOKENS
+   ──────────────────────────────────────────────────────────── */
+:root {
+  /* Color Palette */
+  --white:            #FFFFFF;
+  --bg:               #FFFFFF;
+  --hero-bg:          #3D3D35;
+  --hero-text:        #F0EDE8;
+  --hero-muted:       #A8A49C;
+  --text:             #333333;
+  --text-warm:        #3D3832;
+  --text-secondary:   #7A746C;
+  --text-muted:       #8B8378;
+  --taupe:            #8B8378;
+  --line:             #D4CFC9;
+  --line-light:       #E8E5E0;
+  --surface-warm:     #F5F0EB;
+  --footer-bg:        #3D3D35;
+  --footer-text:      #FFFFFF;
+  --footer-muted:     #A8A29E;
+
+  /* Typography */
+  --font-display:     'EB Garamond', Georgia, serif;
+  --font-body:        'Source Serif 4', Georgia, serif;
+
+  /* Spacing — tight, no large gaps */
+  --section-py:       clamp(60px, 8vw, 100px);
+  --section-py-sm:    clamp(48px, 6vw, 80px);
+  --container:        min(1100px, 88vw);
+  --container-narrow: min(600px, 85vw);
+  --gutter:           clamp(20px, 4vw, 60px);
+
+  /* Animation */
+  --ease-out:         cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-gentle:      cubic-bezier(0.4, 0, 0.2, 1);
+  --duration:         0.9s;
+  --duration-slow:    1.4s;
+}
+
+
+/* ────────────────────────────────────────────────────────────
+   TYPOGRAPHY SYSTEM
+   ──────────────────────────────────────────────────────────── */
+
+/* Hero name — large all-caps, wide letter-spacing (brusov.moscow style) */
+.t-hero-name {
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--hero-text);
+}
+
+/* Hero tagline — italic serif, smaller, normal case */
+.t-hero {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 3vw, 2.2rem);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  color: var(--hero-text);
+}
+
+/* Hero subtitle — small uppercase tracked */
+.t-hero-address {
+  font-family: var(--font-body);
+  font-size: clamp(0.65rem, 1vw, 0.8rem);
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--hero-muted);
+}
+
+/* Section heading — all-caps, wide-spaced */
+.t-section {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 3.2vw, 2.6rem);
+  font-weight: 300;
+  line-height: 1.15;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--text-warm);
+}
+
+/* Section subheading */
+.t-subsection {
+  font-family: var(--font-display);
+  font-size: clamp(1.2rem, 2vw, 1.7rem);
+  font-weight: 300;
+  line-height: 1.3;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-warm);
+}
+
+/* Poetic italic heading — used in history/architecture */
+.t-poetic {
+  font-family: var(--font-display);
+  font-size: clamp(1.3rem, 2.5vw, 2rem);
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  color: var(--text-warm);
+}
+
+/* Small label — tiny uppercase */
+.t-label {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--taupe);
+  display: block;
+}
+
+/* Body text — refined serif */
+.t-body {
+  font-family: var(--font-body);
+  font-size: clamp(0.95rem, 1.15vw, 1.1rem);
+  font-weight: 400;
+  line-height: 1.85;
+  color: var(--text-secondary);
+}
+
+/* Large body — editorial paragraph */
+.t-body-lg {
+  font-family: var(--font-body);
+  font-size: clamp(1.05rem, 1.4vw, 1.25rem);
+  font-weight: 300;
+  line-height: 1.9;
+  color: var(--text-secondary);
+}
+
+/* Caption */
+.t-caption {
+  font-family: var(--font-body);
+  font-size: clamp(0.75rem, 0.85vw, 0.85rem);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+/* Text link — editorial arrow link */
+.t-link {
+  font-family: var(--font-body);
+  font-size: clamp(0.85rem, 1vw, 0.95rem);
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: var(--text-warm);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: opacity 0.4s var(--ease-gentle);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--line);
+}
+
+.t-link:hover {
+  opacity: 0.6;
+}
+
+.t-link::after {
+  content: '\2192';
+  font-size: 1.1em;
+  transition: transform 0.4s var(--ease-gentle);
+}
+
+.t-link:hover::after {
+  transform: translateX(4px);
+}
+
+
+/* ────────────────────────────────────────────────────────────
+   CTA TEXT-LINKS
+   ──────────────────────────────────────────────────────────── */
+.cta-textlink {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--taupe);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  margin-top: clamp(32px, 4vw, 48px);
+}
+
+.cta-textlink:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: var(--text-warm);
+}
+
+.cta-textlink-wrap {
+  width: var(--container-narrow);
+  margin: 0 auto;
+}
+
+
+/* ────────────────────────────────────────────────────────────
+   LAYOUT UTILITIES
+   ──────────────────────────────────────────────────────────── */
+.container {
+  width: var(--container);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container--narrow {
+  width: var(--container-narrow);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding-top: var(--section-py);
+  padding-bottom: var(--section-py);
+}
+
+.section--sm {
+  padding-top: var(--section-py-sm);
+  padding-bottom: var(--section-py-sm);
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+/* ────────────────────────────────────────────────────────────
+   DECORATIVE ELEMENTS
+   ──────────────────────────────────────────────────────────── */
+.deco-line {
+  width: 1px;
+  background: var(--line);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.deco-line--v {
+  height: 80px;
+}
+
+.deco-line--h {
+  height: 1px;
+  width: 60px;
+  background: var(--line);
+}
+
+.deco-line--full {
+  height: 1px;
+  width: 100%;
+  background: var(--line-light);
+}
+
+/* Thin dashed connecting lines between photo clusters */
+.deco-arc {
+  position: absolute;
+  pointer-events: none;
+}
+
+.deco-arc line,
+.deco-arc path {
+  stroke: var(--line);
+  stroke-width: 1;
+  fill: none;
+  stroke-dasharray: 6, 8;
+}
+
+
+/* ────────────────────────────────────────────────────────────
+   SCROLL REVEAL
+   ──────────────────────────────────────────────────────────── */
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity var(--duration) var(--ease-gentle),
+              transform var(--duration-slow) var(--ease-gentle);
+  will-change: opacity, transform;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-stagger > .reveal:nth-child(1) { transition-delay: 0s; }
+.reveal-stagger > .reveal:nth-child(2) { transition-delay: 0.1s; }
+.reveal-stagger > .reveal:nth-child(3) { transition-delay: 0.15s; }
+.reveal-stagger > .reveal:nth-child(4) { transition-delay: 0.2s; }
+.reveal-stagger > .reveal:nth-child(5) { transition-delay: 0.25s; }
+
+.reveal-photo {
+  opacity: 0;
+  transition: opacity var(--duration-slow) var(--ease-gentle);
+  will-change: opacity;
+}
+
+.reveal-photo.is-visible {
+  opacity: 1;
+}
+
+
+/* ════════════════════════════════════════════════════════════
+   HEADER / NAVIGATION
+   ════════════════════════════════════════════════════════════ */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 28px clamp(24px, 4vw, 60px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  transition: background 0.5s var(--ease-gentle),
+              backdrop-filter 0.5s var(--ease-gentle),
+              padding 0.4s var(--ease-gentle);
+}
+
+/* On dark hero — light text */
+.header--dark .header__logo {
+  color: var(--hero-text);
+}
+
+.header--dark .header__menu-btn span {
+  background: var(--hero-text);
+}
+
+/* Once scrolled past hero — white bg, dark text */
+.header.is-scrolled {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.header.is-scrolled .header__logo {
+  color: var(--text-warm);
+}
+
+.header.is-scrolled .header__menu-btn span {
+  background: var(--text-warm);
+}
+
+.header__logo {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--text-warm);
+  transition: color 0.4s var(--ease-gentle);
+}
+
+.header__phone {
+  display: none !important;
+}
+
+.header__menu-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1001;
+}
+
+.header__menu-btn span {
+  display: block;
+  width: 24px;
+  height: 1px;
+  background: var(--text-warm);
+  transition: transform 0.4s var(--ease-gentle),
+              opacity 0.3s ease,
+              background 0.4s var(--ease-gentle);
+}
+
+.header__menu-btn.is-open span:nth-child(1) {
+  transform: translateY(3.5px) rotate(45deg);
+}
+
+.header__menu-btn.is-open span:nth-child(2) {
+  opacity: 0;
+}
+
+.header__menu-btn.is-open span:nth-child(3) {
+  transform: translateY(-3.5px) rotate(-45deg);
+}
+
+/* Full-screen nav overlay */
+.nav-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background: rgba(255, 255, 255, 0.97);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s var(--ease-gentle);
+}
+
+.nav-overlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.nav-overlay__link {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-warm);
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s var(--ease-gentle),
+              transform 0.5s var(--ease-gentle);
+}
+
+.nav-overlay.is-open .nav-overlay__link {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.nav-overlay.is-open .nav-overlay__link:nth-child(1) { transition-delay: 0.05s; }
+.nav-overlay.is-open .nav-overlay__link:nth-child(2) { transition-delay: 0.1s; }
+.nav-overlay.is-open .nav-overlay__link:nth-child(3) { transition-delay: 0.15s; }
+.nav-overlay.is-open .nav-overlay__link:nth-child(4) { transition-delay: 0.2s; }
+.nav-overlay.is-open .nav-overlay__link:nth-child(5) { transition-delay: 0.25s; }
+.nav-overlay.is-open .nav-overlay__link:nth-child(6) { transition-delay: 0.3s; }
+
+.nav-overlay__link:hover {
+  color: var(--taupe);
+}
+
+.nav-overlay__phone {
+  display: none !important;
+}
+
+
+/* ════════════════════════════════════════════════════════════
+   SECTION 1: HERO — DARK BACKGROUND (brusov.moscow style)
+   Warm dark gray-green, italic serif headline, building at bottom
+   ════════════════════════════════════════════════════════════ */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--hero-bg);
+  padding: 0 var(--gutter);
+  overflow: hidden;
+}
+
+/* SVG architectural line drawing overlay on hero */
+.hero__line-drawing {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.12;
+}
+
+.hero__line-drawing line,
+.hero__line-drawing rect,
+.hero__line-drawing path,
+.hero__line-drawing polygon {
+  fill: none;
+  stroke: #A8A49C;
+  stroke-width: 0.5;
+}
+
+.hero__content {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: clamp(40px, 6vw, 80px);
+  position: relative;
+  z-index: 2;
+}
+
+.hero__developer {
+  margin-bottom: clamp(20px, 3vw, 40px);
+  color: var(--hero-muted);
+}
+
+.hero__title {
+  margin-bottom: clamp(20px, 3vw, 36px);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero__address-line {
+  margin-top: clamp(12px, 2vw, 24px);
+}
+
+/* Hero image — building render at bottom of hero */
+.hero__image-wrap {
+  width: 100%;
+  position: relative;
+  margin-top: auto;
+  z-index: 2;
+}
+
+.hero__image {
+  width: 100%;
+  height: clamp(280px, 45vw, 600px);
+  object-fit: cover;
+  object-position: center 30%;
+  display: block;
+}
+
+/* Scroll indicator */
+.hero__scroll {
+  position: absolute;
+  bottom: clamp(24px, 4vw, 48px);
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  z-index: 3;
+}
+
+.hero__scroll-label {
+  font-family: var(--font-body);
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--hero-muted);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  margin-bottom: 4px;
+}
+
+.hero__scroll-line {
+  width: 1px;
+  height: 48px;
+  background: rgba(168, 164, 156, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero__scroll-line::after {
+  content: '';
+  position: absolute;
+  top: -48px;
+  left: 0;
+  width: 1px;
+  height: 48px;
+  background: var(--hero-muted);
+  animation: scrollPulse 2.4s var(--ease-gentle) infinite;
+}
+
+@keyframes scrollPulse {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(96px); }
+}
+
+
+/* ════════════════════════════════════════════════════════════
+   SECTION 2: HISTORY / STORY
+   White bg, poetic heading, asymmetric photos with dashed SVG curves
+   ════════════════════════════════════════════════════════════ */
+.history {
+  padding-top: clamp(48px, 6vw, 80px);
+  padding-bottom: var(--section-py);
+  position: relative;
+  background: var(--white);
+}
+
+.history__header {
+  width: var(--container-narrow);
+  margin: 0 auto;
+  margin-bottom: clamp(36px, 5vw, 64px);
+}
+
+.history__label {
+  margin-bottom: clamp(24px, 3vw, 40px);
+}
+
+.history__heading {
+  margin-bottom: clamp(24px, 3vw, 40px);
+}
+
+.history__text {
+  max-width: 540px;
+}
+
+.history__link {
+  margin-top: clamp(28px, 3vw, 44px);
+}
+
+/* Asymmetric photo cluster — scattered, NOT grid */
+.history__photos {
+  width: var(--container);
+  margin: 0 auto;
+  position: relative;
+  min-height: clamp(500px, 60vw, 800px);
+}
+
+.history__photo {
+  position: relative;
+  overflow: hidden;
+}
+
+.history__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(0.85) contrast(1.05);
+}
+
+/* Desktop: truly scattered layout — different sizes, different offsets */
+@media (min-width: 768px) {
+  .history__photos {
+    position: relative;
+    min-height: clamp(500px, 55vw, 750px);
+  }
+
+  .history__photo--1 {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 42%;
+    aspect-ratio: 3 / 4;
+    z-index: 2;
+  }
+
+  .history__photo--2 {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    width: 35%;
+    aspect-ratio: 4 / 5;
+    z-index: 3;
+  }
+
+  .history__photo--3 {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    width: 38%;
+    aspect-ratio: 3 / 4;
+    z-index: 2;
+  }
+}
+
+/* Mobile: stacked with offset */
+@media (max-width: 767px) {
+  .history__photos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: auto;
+    padding: 0 var(--gutter);
+  }
+
+  .history__photo {
+    aspect-ratio: 4 / 3;
+  }
+
+  .history__photo--2 {
+    width: 80%;
+    margin-left: auto;
+  }
+
+  .history__photo--3 {
+    width: 85%;
+  }
+}
+
+/* SVG decorative dashed connecting curves between photos */
+.history__deco-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.history__deco-svg path {
+  fill: none;
+  stroke: #8B8378;
+  stroke-width: 1;
+  stroke-dasharray: 6 4;
+}
+
+/* Small decorative pencil sketches (optional) */
+.history__sketch {
+  position: absolute;
+  width: clamp(60px, 8vw, 100px);
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.history__sketch--1 {
+  top: 10%;
+  right: 42%;
+}
+
+.history__sketch--2 {
+  bottom: 20%;
+  right: 8%;
+}
+
+/* Photo caption */
+.history__photo-caption {
+  margin-top: 12px;
+  text-align: center;
+}
+
+
+/* ════════════════════════════════════════════════════════════
+   SECTION 3: ARCHITECTURE
+   Full-bleed photo + circular inset detail + quote
+   ════════════════════════════════════════════════════════════ */
+.architecture {
+  padding-top: clamp(40px, 5vw, 72px);
+  padding-bottom: var(--section-py);
+  background: var(--white);
+}
+
+.architecture__label-wrap {
+  width: var(--container-narrow);
+  margin: 0 auto clamp(36px, 5vw, 60px);
+}
+
+/* Full-bleed building photo (removed from HTML, kept for reuse) */
+.architecture__hero-wrap {
+  position: relative;
+  width: 100%;
+  margin-bottom: clamp(36px, 5vw, 64px);
+}
+
+.architecture__hero-image {
+  width: 100%;
+  aspect-ratio: 21 / 9;
+  object-fit: cover;
+  object-position: center 40%;
+}
+
+.architecture__content {
+  width: var(--container-narrow);
+  margin: 0 auto;
+}
+
+.architecture__heading {
+  margin-bottom: clamp(24px, 3vw, 40px);
+}
+
+.architecture__architect {
+  font-family: var(--font-display);
+  font-size: clamp(0.9rem, 1.1vw, 1rem);
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.05em;
+  color: var(--taupe);
+  margin-bottom: clamp(20px, 2.5vw, 32px);
+}
+
+.architecture__text {
+  max-width: 540px;
+  margin-bottom: clamp(28px, 3vw, 44px);
+}
+
+/* Detail photo with CIRCULAR INSET overlay */
+.architecture__detail {
+  width: var(--container);
+  margin: clamp(36px, 5vw, 64px) auto 0;
+  position: relative;
+}
+
+.architecture__detail-photo-wrap {
+  position: relative;
+  width: 100%;
+}
+
+.architecture__detail-img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+/* Circular photo inset — white circle with zoomed detail */
+.photo-inset {
+  position: absolute;
+  bottom: -40px;
+  right: 15%;
+  width: clamp(100px, 14vw, 140px);
+  height: clamp(100px, 14vw, 140px);
+  border-radius: 50%;
+  background: white;
+  padding: 6px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+  z-index: 5;
+  overflow: hidden;
+}
+
+.photo-inset img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.architecture__detail-caption {
+  margin-top: clamp(52px, 6vw, 68px);
+  text-align: right;
+}
+
+
+/* ════════════════════════════════════════════════════════════
+   SECTION 4: INTERIORS
+   Split layout with circular inset on photos
+   ════════════════════════════════════════════════════════════ */
+.interiors {
+  padding-top: var(--section-py);
+  padding-bottom: var(--section-py-sm);
+  background: var(--white);
+}
+
+.interiors__label-wrap {
+  width: var(--container);
+  margin: 0 auto clamp(36px, 5vw, 60px);
+}
+
+/* Split layout */
+.interiors__split {
+  width: var(--container);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(32px, 5vw, 60px);
+}
+
+@media (min-width: 900px) {
+  .interiors__split {
+    flex-direction: row;
+    align-items: center;
+    gap: clamp(40px, 5vw, 80px);
+  }
+}
+
+.interiors__photo-wrap {
+  flex: 0 0 58%;
+  max-width: 58%;
+  position: relative;
+}
+
+.interiors__photo-main {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+/* Circular inset on interior photo */
+.interiors__photo-inset {
+  position: absolute;
+  bottom: -30px;
+  left: 10%;
+  width: clamp(90px, 12vw, 120px);
+  height: clamp(90px, 12vw, 120px);
+  border-radius: 50%;
+  background: white;
+  padding: 5px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  z-index: 5;
+  overflow: hidden;
+}
+
+.interiors__photo-inset img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media (max-width: 899px) {
+  .interiors__photo-wrap {
+    flex: none;
+    max-width: 100%;
+  }
+
+  .interiors__photo-main {
+    aspect-ratio: 3 / 4;
+  }
+}
+
+.interiors__text-block {
+  flex: 1;
+  padding-right: clamp(0px, 2vw, 40px);
+}
+
+.interiors__heading {
+  margin-bottom: clamp(20px, 2.5vw, 36px);
+}
+
+.interiors__designer {
+  font-family: var(--font-display);
+  font-size: clamp(0.9rem, 1.1vw, 1rem);
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.05em;
+  color: var(--taupe);
+  margin-bottom: clamp(16px, 2vw, 28px);
+}
+
+.interiors__body {
+  max-width: 440px;
+  margin-bottom: clamp(24px, 3vw, 40px);
+}
+
+/* Additional interior photos */
+.interiors__gallery {
+  width: var(--container);
+  margin: clamp(36px, 5vw, 64px) auto 0;
+  display: grid;
+  gap: clamp(12px, 1.5vw, 24px);
+}
+
+@media (min-width: 768px) {
+  .interiors__gallery {
+    grid-template-columns: 1.2fr 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .interiors__gallery-photo--1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    aspect-ratio: 3 / 4;
+  }
+
+  .interiors__gallery-photo--2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    aspect-ratio: 16 / 10;
+  }
+
+  .interiors__gallery-photo--3 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    aspect-ratio: 16 / 10;
+  }
+}
+
+@media (max-width: 767px) {
+  .interiors__gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .interiors__gallery-photo {
+    aspect-ratio: 4 / 3;
+  }
+}
+
+.interiors__gallery-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* ════════════════════════════════════════════════════════════
+   SECTION 5: RESIDENCES
+   ════════════════════════════════════════════════════════════ */
+.residences {
+  padding-top: var(--section-py);
+  padding-bottom: var(--section-py);
+  border-top: 1px solid var(--line-light);
+  background: var(--white);
+}
+
+.residences__header {
+  width: var(--container-narrow);
+  margin: 0 auto clamp(40px, 6vw, 80px);
+}
+
+.residences__label {
+  margin-bottom: clamp(24px, 3vw, 40px);
+}
+
+.residences__heading {
+  margin-bottom: clamp(24px, 3vw, 40px);
+}
+
+.residences__text {
+  max-width: 540px;
+  margin-bottom: clamp(32px, 4vw, 56px);
+}
+
+.residences__stats {
+  width: var(--container-narrow);
+  margin: 0 auto clamp(40px, 6vw, 80px);
+}
+
+.residences__stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: clamp(16px, 2vw, 24px) 0;
+  border-bottom: 1px solid var(--line-light);
+}
+
+.residences__stat:first-child {
+  border-top: 1px solid var(--line-light);
+}
+
+.residences__stat-label {
+  font-family: var(--font-body);
+  font-size: clamp(0.85rem, 1vw, 0.95rem);
+  font-weight: 400;
+  color: var(--text-muted);
+  letter-spacing: 0.03em;
+}
+
+.residences__stat-value {
+  font-family: var(--font-display);
+  font-size: clamp(1rem, 1.3vw, 1.2rem);
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  color: var(--text-warm);
+}
+
+.residences__image {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+
+/* ════════════════════════════════════════════════════════════
+   SECTION 6: LOCATION — Yandex Maps embed
+   ════════════════════════════════════════════════════════════ */
+.location {
+  padding-top: var(--section-py);
+  padding-bottom: var(--section-py);
+  background: var(--white);
+}
+
+.location__header {
+  width: var(--container-narrow);
+  margin: 0 auto clamp(36px, 5vw, 60px);
+}
+
+.location__label {
+  margin-bottom: clamp(24px, 3vw, 40px);
+}
+
+.location__address {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-warm);
+  margin-bottom: clamp(16px, 2vw, 28px);
+  line-height: 1.3;
+}
+
+.location__text {
+  max-width: 500px;
+  margin-bottom: clamp(28px, 3vw, 44px);
+}
+
+/* Yandex Map embed — real interactive map */
+.location__map-wrap {
+  width: 100%;
+  margin-bottom: clamp(32px, 4vw, 56px);
+  position: relative;
+  overflow: hidden;
+}
+
+.location__map-iframe {
+  width: 100%;
+  height: clamp(300px, 45vw, 500px);
+  border: none;
+  filter: grayscale(0.3) contrast(0.95);
+  transition: filter 0.4s ease;
+}
+
+.location__map-wrap:hover .location__map-iframe {
+  filter: grayscale(0) contrast(1);
+}
+
+/* Fallback: static map image (hidden when iframe works) */
+.location__map-img {
+  width: 100%;
+  aspect-ratio: 21 / 9;
+  object-fit: cover;
+  filter: grayscale(0.5) contrast(0.95);
+  display: none;
+}
+
+.location__map-marker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  text-align: center;
+  display: none;
+}
+
+.location__map-marker-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--text-warm);
+  margin: 0 auto 8px;
+}
+
+.location__map-marker-label {
+  font-family: var(--font-body);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-warm);
+  white-space: nowrap;
+}
+
+/* Distances */
+.location__distances {
+  width: var(--container-narrow);
+  margin: 0 auto;
+}
+
+.location__distance {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: clamp(12px, 1.5vw, 18px) 0;
+  border-bottom: 1px solid var(--line-light);
+}
+
+.location__distance:first-child {
+  border-top: 1px solid var(--line-light);
+}
+
+.location__distance-place {
+  font-family: var(--font-body);
+  font-size: clamp(0.85rem, 1vw, 0.95rem);
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+.location__distance-value {
+  font-family: var(--font-body);
+  font-size: clamp(0.85rem, 1vw, 0.95rem);
+  font-weight: 400;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.location__link-wrap {
+  width: var(--container-narrow);
+  margin: clamp(28px, 3vw, 44px) auto 0;
+}
+
+
+/* ════════════════════════════════════════════════════════════
+   SECTION 7: CONTACT FORM — Warm background, prominent
+   ════════════════════════════════════════════════════════════ */
+.contact {
+  padding-top: var(--section-py);
+  padding-bottom: var(--section-py);
+  background: var(--surface-warm);
+}
+
+.contact__inner {
+  width: var(--container-narrow);
+  margin: 0 auto;
+}
+
+.contact__label {
+  margin-bottom: clamp(24px, 3vw, 40px);
+}
+
+.contact__heading {
+  margin-bottom: clamp(16px, 2vw, 28px);
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+}
+
+.contact__subtext {
+  max-width: 440px;
+  margin-bottom: clamp(36px, 5vw, 56px);
+  font-size: clamp(1rem, 1.2vw, 1.15rem);
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.contact__field-label {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--taupe);
+  display: block;
+  margin-bottom: 8px;
+}
+
+.contact__field {
+  position: relative;
+  padding: clamp(18px, 2vw, 24px) 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.contact__field:first-of-type {
+  border-top: 1px solid var(--line);
+}
+
+.contact__input,
+.contact__select {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-warm);
+  background: transparent;
+  border: none;
+  padding: 16px 0;
+  line-height: 1.5;
+}
+
+.contact__input::placeholder {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.contact__select {
+  cursor: pointer;
+  color: var(--text-muted);
+  font-style: italic;
+  padding: 16px 0;
+}
+
+.contact__select:valid {
+  color: var(--text-warm);
+  font-style: normal;
+}
+
+.contact__select option {
+  font-style: normal;
+  color: var(--text-warm);
+}
+
+.contact__field--select {
+  position: relative;
+}
+
+.contact__field--select::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  border-right: 1px solid var(--text-muted);
+  border-bottom: 1px solid var(--text-muted);
+  transform: translateY(-60%) rotate(45deg);
+  pointer-events: none;
+}
+
+/* Two CTA buttons — Catalog + Viewing */
+.contact__submit-wrap {
+  margin-top: clamp(32px, 4vw, 48px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.contact__buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.contact__submit {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-warm);
+  background: transparent;
+  border: 1px solid var(--text-warm);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 32px;
+  transition: background 0.4s var(--ease-gentle), color 0.4s var(--ease-gentle);
+}
+
+.contact__submit:hover {
+  background: var(--text-warm);
+  color: var(--white);
+}
+
+.contact__submit--secondary {
+  border-color: var(--taupe);
+  color: var(--taupe);
+}
+
+.contact__submit--secondary:hover {
+  background: var(--taupe);
+  color: var(--white);
+}
+
+.contact__submit::after {
+  content: '\2192';
+  font-size: 1.2em;
+  transition: transform 0.4s var(--ease-gentle);
+}
+
+.contact__submit:hover::after {
+  transform: translateX(4px);
+}
+
+.contact__response-time {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--taupe);
+  font-style: italic;
+  margin-top: 4px;
+}
+
+.contact__privacy {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--text-muted);
+  max-width: 420px;
+}
+
+.contact__privacy a {
+  color: var(--text-secondary);
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 2px;
+  transition: text-decoration-color 0.3s ease;
+}
+
+.contact__privacy a:hover {
+  text-decoration-color: var(--text-secondary);
+}
+
+/* Success state */
+.contact__success {
+  display: none;
+  text-align: center;
+  padding: clamp(40px, 5vw, 80px) 0;
+}
+
+.contact__success.is-visible {
+  display: block;
+}
+
+.contact__success-heading {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-warm);
+  margin-bottom: 16px;
+}
+
+.contact__success-text {
+  color: var(--text-secondary);
+  font-size: clamp(1rem, 1.2vw, 1.15rem);
+}
+
+
+/* ════════════════════════════════════════════════════════════
+   SECTION 8: FOOTER — Dark, matches hero tone
+   ════════════════════════════════════════════════════════════ */
+.footer {
+  background: var(--footer-bg);
+  color: var(--footer-text);
+  padding: clamp(48px, 6vw, 80px) var(--gutter) clamp(32px, 4vw, 48px);
+}
+
+.footer__inner {
+  width: var(--container);
+  margin: 0 auto;
+}
+
+.footer__top {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(28px, 3vw, 40px);
+  margin-bottom: clamp(36px, 5vw, 60px);
+}
+
+@media (min-width: 768px) {
+  .footer__top {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+.footer__brand {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer__logo {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--footer-text);
+}
+
+.footer__developer-label {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--footer-muted);
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer__address-line {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: #D1CBC5;
+}
+
+.footer__divider {
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.12);
+  margin-bottom: clamp(24px, 3vw, 36px);
+}
+
+.footer__bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .footer__bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}
+
+.footer__copyright {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 400;
+  color: #D1CBC5;
+  letter-spacing: 0.05em;
+}
+
+.footer__legal {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #B5AFA9;
+  max-width: 600px;
+  opacity: 1;
+}
+
+.footer__links {
+  display: flex;
+  gap: 24px;
+  margin-top: 12px;
+}
+
+.footer__link {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: #D1CBC5;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.25);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.3s ease, color 0.3s ease;
+}
+
+.footer__link:hover {
+  color: var(--footer-text);
+  text-decoration-color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* ────────────────────────────────────────────────────────────
+   FLOATING CTA — scroll to form button
+   ──────────────────────────────────────────────────────────── */
+.floating-cta {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--white);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 100;
+  transition: transform 0.3s var(--ease-gentle), box-shadow 0.3s var(--ease-gentle);
+  border: none;
+}
+
+.floating-cta:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 32px rgba(0,0,0,0.2);
+}
+
+.floating-cta svg {
+  width: 22px;
+  height: 22px;
+  stroke: var(--text-warm);
+  fill: none;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Hide floating CTA when near contact section */
+.floating-cta--hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.8);
+}
+
+
+/* ────────────────────────────────────────────────────────────
+   SPACER / BREATHING SECTIONS
+   ──────────────────────────────────────────────────────────── */
+.breath {
+  height: clamp(24px, 3vw, 48px);
+}
+
+.breath--lg {
+  height: clamp(36px, 5vw, 72px);
+}
+
+
+/* ────────────────────────────────────────────────────────────
+   PARALLAX
+   ──────────────────────────────────────────────────────────── */
+.parallax-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.parallax-img {
+  transition: transform 0.1s linear;
+  will-change: transform;
+}
+
+
+/* ────────────────────────────────────────────────────────────
+   AUTO-HIDE EMPTY
+   ──────────────────────────────────────────────────────────── */
+.is-empty-hidden {
+  display: none !important;
+}
+
+
+/* ────────────────────────────────────────────────────────────
+   RESPONSIVE
+   ──────────────────────────────────────────────────────────── */
+
+/* Large desktop */
+@media (min-width: 1400px) {
+  :root {
+    --container: min(1200px, 85vw);
+    --container-narrow: min(640px, 80vw);
+  }
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .hero__image {
+    height: clamp(220px, 40vw, 400px);
+  }
+
+  .architecture__hero-image {
+    aspect-ratio: 16 / 9;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  :root {
+    --section-py: clamp(48px, 8vw, 80px);
+    --section-py-sm: clamp(36px, 6vw, 64px);
+    --container: 92vw;
+    --container-narrow: 90vw;
+  }
+
+  .t-hero-name {
+    font-size: clamp(2.4rem, 12vw, 4rem);
+    letter-spacing: 0.2em;
+  }
+
+  .t-hero {
+    font-size: clamp(1.1rem, 4.5vw, 1.6rem);
+    letter-spacing: 0.01em;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .t-section {
+    font-size: clamp(1.2rem, 5vw, 1.6rem);
+    letter-spacing: 0.12em;
+  }
+
+  .hero {
+    min-height: 100svh;
+  }
+
+  .hero__image {
+    height: clamp(200px, 50vw, 320px);
+  }
+
+  .architecture__hero-image {
+    aspect-ratio: 4 / 3;
+  }
+
+  .residences__image {
+    width: 100%;
+  }
+
+  .header {
+    padding: 20px clamp(16px, 4vw, 24px);
+  }
+
+  .header.is-scrolled {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .contact__submit {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contact__submit-wrap {
+    width: 100%;
+  }
+
+  .contact__buttons {
+    flex-direction: column;
+  }
+
+  .cta-textlink {
+    display: block;
+    text-align: center;
+  }
+
+  .footer__links {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .photo-inset {
+    width: 80px;
+    height: 80px;
+    bottom: -20px;
+    right: 10%;
+  }
+
+  .interiors__photo-inset {
+    width: 70px;
+    height: 70px;
+    bottom: -20px;
+  }
+
+  .floating-cta {
+    bottom: 16px;
+    right: 16px;
+    width: 48px;
+    height: 48px;
+  }
+
+  .floating-cta svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal-photo {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .hero__scroll-line::after {
+    animation: none;
+  }
+
+  .parallax-img {
+    transition: none;
+  }
+}
+
+/* Print */
+@media print {
+  .header,
+  .hero__scroll,
+  .nav-overlay,
+  .floating-cta {
+    display: none;
+  }
+
+  .reveal,
+  .reveal-photo {
+    opacity: 1;
+    transform: none;
+  }
+
+  body {
+    font-size: 11pt;
+  }
+
+  .hero {
+    background: #FFFFFF;
+    min-height: auto;
+    padding: 40px 0;
+  }
+
+  .t-hero,
+  .t-hero-name {
+    color: #333333;
+  }
+
+  .footer {
+    background: #FFFFFF;
+    color: #333333;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════
+     HEADER — Fixed, minimal. Dark on hero, light after scroll.
+     ═══════════════════════════════════════════════════════════ -->
+<header class="header header--dark" id="header" role="banner">
+  <a href="#" class="header__logo">КЛО 17</a>
+
+  <button class="header__menu-btn" id="menuBtn" aria-label="Открыть меню" aria-expanded="false">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</header>
+
+<!-- Full-screen navigation overlay -->
+<nav class="nav-overlay" id="navOverlay" role="navigation" aria-label="Основная навигация">
+  <a href="#history" class="nav-overlay__link" data-nav>История</a>
+  <a href="#architecture" class="nav-overlay__link" data-nav>Архитектура</a>
+  <a href="#interiors" class="nav-overlay__link" data-nav>Интерьеры</a>
+  <a href="#residences" class="nav-overlay__link" data-nav>Резиденции</a>
+  <a href="#location" class="nav-overlay__link" data-nav>Локация</a>
+  <a href="#contact" class="nav-overlay__link" data-nav>Связаться</a>
+</nav>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION 1: HERO — DARK WARM GRAY-GREEN BACKGROUND
+     Italic serif headline "АДРЕС, КОТОРЫЙ ЖДАЛИ"
+     Small uppercase address below. Building image at bottom.
+     ═══════════════════════════════════════════════════════════ -->
+<section class="hero" id="hero" aria-label="Главная">
+
+  <!-- SVG architectural line drawing — decorative building outlines -->
+  <svg class="hero__line-drawing" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <!-- Simplified architectural skyline lines -->
+    <line x1="0" y1="680" x2="200" y2="680" />
+    <rect x="200" y="400" width="120" height="280" />
+    <rect x="210" y="420" width="20" height="30" />
+    <rect x="240" y="420" width="20" height="30" />
+    <rect x="270" y="420" width="20" height="30" />
+    <rect x="210" y="470" width="20" height="30" />
+    <rect x="240" y="470" width="20" height="30" />
+    <rect x="270" y="470" width="20" height="30" />
+    <line x1="320" y1="680" x2="420" y2="680" />
+    <rect x="420" y="350" width="180" height="330" />
+    <rect x="440" y="380" width="30" height="40" />
+    <rect x="490" y="380" width="30" height="40" />
+    <rect x="540" y="380" width="30" height="40" />
+    <rect x="440" y="440" width="30" height="40" />
+    <rect x="490" y="440" width="30" height="40" />
+    <rect x="540" y="440" width="30" height="40" />
+    <rect x="440" y="500" width="30" height="40" />
+    <rect x="490" y="500" width="30" height="40" />
+    <rect x="540" y="500" width="30" height="40" />
+    <!-- Main building (center, taller) -->
+    <rect x="620" y="250" width="200" height="430" />
+    <rect x="640" y="280" width="35" height="45" />
+    <rect x="690" y="280" width="35" height="45" />
+    <rect x="740" y="280" width="35" height="45" />
+    <rect x="640" y="345" width="35" height="45" />
+    <rect x="690" y="345" width="35" height="45" />
+    <rect x="740" y="345" width="35" height="45" />
+    <rect x="640" y="410" width="35" height="45" />
+    <rect x="690" y="410" width="35" height="45" />
+    <rect x="740" y="410" width="35" height="45" />
+    <rect x="640" y="475" width="35" height="45" />
+    <rect x="690" y="475" width="35" height="45" />
+    <rect x="740" y="475" width="35" height="45" />
+    <rect x="640" y="540" width="35" height="45" />
+    <rect x="690" y="540" width="35" height="45" />
+    <rect x="740" y="540" width="35" height="45" />
+    <polygon points="620,250 720,200 820,250" />
+    <line x1="820" y1="680" x2="920" y2="680" />
+    <rect x="920" y="380" width="160" height="300" />
+    <rect x="940" y="410" width="25" height="35" />
+    <rect x="980" y="410" width="25" height="35" />
+    <rect x="1020" y="410" width="25" height="35" />
+    <rect x="940" y="465" width="25" height="35" />
+    <rect x="980" y="465" width="25" height="35" />
+    <rect x="1020" y="465" width="25" height="35" />
+    <line x1="1080" y1="680" x2="1200" y2="680" />
+    <rect x="1200" y="420" width="140" height="260" />
+    <rect x="1220" y="450" width="20" height="30" />
+    <rect x="1260" y="450" width="20" height="30" />
+    <rect x="1300" y="450" width="20" height="30" />
+    <line x1="1340" y1="680" x2="1440" y2="680" />
+    <!-- Ground line -->
+    <line x1="0" y1="680" x2="1440" y2="680" />
+  </svg>
+
+  <div class="hero__content">
+    <p class="t-label hero__developer" style="color: var(--hero-muted);"></p>
+
+    <p class="t-hero-name hero__name">CLOS 17</p>
+
+    <h1 class="t-hero hero__title" style="margin-top: clamp(12px, 2vw, 24px);">Закрытый особняк в сердце Москвы</h1>
+
+    <p class="t-hero-address hero__address-line">Москва, Староваганьковский переулок, 17</p>
+  </div>
+
+  <div class="hero__image-wrap">
+    <img
+      class="hero__image reveal-photo"
+      src="images/hero_image.jpg"
+      alt="CLOS 17 — Закрытый особняк в сердце Москвы"
+      loading="eager"
+      fetchpriority="high"
+      width="1920"
+      height="860"
+    >
+  </div>
+
+  <div class="hero__scroll" aria-hidden="true">
+    <span class="hero__scroll-label"></span>
+    <div class="hero__scroll-line"></div>
+  </div>
+
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION 2: HISTORY / STORY
+     White bg. Poetic italic heading. 3 B&W photos scattered
+     asymmetrically with dashed SVG curves connecting them.
+     ═══════════════════════════════════════════════════════════ -->
+<section class="history section" id="history" aria-label="История">
+
+  <div class="history__header">
+    <p class="t-label history__label reveal"></p>
+
+    <h2 class="t-poetic history__heading reveal"></h2>
+
+    <p class="t-body-lg history__text reveal"></p>
+
+    <div class="history__link reveal">
+      <a href="#contact" class="t-link">История</a>
+    </div>
+  </div>
+
+  <!-- Asymmetric photo cluster with decorative dashed SVG curves -->
+  <div class="history__photos reveal-stagger">
+    <div class="history__photo history__photo--1 reveal-photo" data-check-img>
+      <img
+        src="images/gallery_image_1.jpg"
+        alt=""
+        loading="lazy"
+        width="400"
+        height="530"
+      >
+    </div>
+
+    <div class="history__photo history__photo--2 reveal-photo" data-check-img>
+      <img
+        src="images/gallery_image_2.jpg"
+        alt=""
+        loading="lazy"
+        width="480"
+        height="600"
+      >
+    </div>
+
+    <div class="history__photo history__photo--3 reveal-photo" data-check-img>
+      <img
+        src="images/gallery_image_3.jpg"
+        alt=""
+        loading="lazy"
+        width="400"
+        height="530"
+      >
+    </div>
+
+    <!-- Decorative SVG dashed curves connecting the photos -->
+    <svg class="history__deco-svg" viewBox="0 0 1100 750" preserveAspectRatio="none" aria-hidden="true">
+      <!-- Curve from photo 1 to photo 2 -->
+      <path d="M 200 280 C 350 180, 480 220, 650 200" />
+      <!-- Curve from photo 2 to photo 3 -->
+      <path d="M 700 380 C 620 480, 500 520, 380 460" />
+      <!-- Decorative flourish -->
+      <path d="M 150 500 C 250 440, 300 520, 280 580" />
+    </svg>
+  </div>
+
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION 3: ARCHITECTURE
+     Full-bleed building facade photo. Below: poetic quote.
+     Second photo with CIRCULAR INSET detail.
+     ═══════════════════════════════════════════════════════════ -->
+<section class="architecture" id="architecture" aria-label="Архитектура">
+
+  <div class="architecture__label-wrap">
+    <p class="t-label reveal"></p>
+  </div>
+
+  <div class="architecture__content">
+    <h2 class="t-poetic architecture__heading reveal"></h2>
+
+    <p class="architecture__architect reveal"></p>
+
+    <p class="t-body-lg architecture__text reveal"></p>
+
+    <a href="#contact" class="t-link reveal">Подробнее</a>
+  </div>
+
+  <!-- Detail photo with circular inset -->
+  <div class="architecture__detail reveal" data-check-img>
+    <div class="architecture__detail-photo-wrap">
+      <img
+        class="architecture__detail-img reveal-photo"
+        src="images/gallery_image_5.jpg"
+        alt="CLOS 17 — архитектурные детали"
+        loading="lazy"
+        width="1200"
+        height="675"
+      >
+      <!-- Circular inset — zoomed architectural detail -->
+      <div class="photo-inset" data-check-img>
+        <img
+          src="images/gallery_image_6.jpg"
+          alt="Архитектурная деталь"
+          loading="lazy"
+          width="140"
+          height="140"
+        >
+      </div>
+    </div>
+    <p class="t-caption architecture__detail-caption"></p>
+  </div>
+
+  <!-- CTA text-link -->
+  <div class="cta-textlink-wrap reveal">
+    <a href="#contact" class="cta-textlink">Выслать каталог с планировками →</a>
+  </div>
+
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION 4: INTERIORS
+     Split layout with circular inset on main photo
+     ═══════════════════════════════════════════════════════════ -->
+<section class="interiors" id="interiors" aria-label="Интерьеры">
+
+  <div class="interiors__label-wrap">
+    <p class="t-label reveal"></p>
+  </div>
+
+  <div class="interiors__split">
+    <!-- Main interior photo with circular inset -->
+    <div class="parallax-wrap interiors__photo-wrap" data-check-img>
+      <img
+        class="interiors__photo-main reveal-photo parallax-img"
+        src="images/gallery_image_7.jpg"
+        alt="CLOS 17 — интерьер"
+        loading="lazy"
+        width="800"
+        height="1000"
+      >
+      <!-- Circular inset — interior detail -->
+      <div class="interiors__photo-inset" data-check-img>
+        <img
+          src="images/gallery_image_8.jpg"
+          alt="Деталь интерьера"
+          loading="lazy"
+          width="120"
+          height="120"
+        >
+      </div>
+    </div>
+
+    <!-- Text block -->
+    <div class="interiors__text-block">
+      <h2 class="t-section interiors__heading reveal"></h2>
+
+      <p class="interiors__designer reveal"></p>
+
+      <p class="t-body-lg interiors__body reveal"></p>
+
+      <a href="#contact" class="t-link reveal">Подробнее</a>
+    </div>
+  </div>
+
+  <!-- Additional interior photos -->
+  <div class="interiors__gallery reveal-stagger">
+    <div class="interiors__gallery-photo interiors__gallery-photo--1 reveal-photo" data-check-img>
+      <img
+        src="images/gallery_image_9.jpg"
+        alt="CLOS 17 — интерьер"
+        loading="lazy"
+        width="600"
+        height="800"
+      >
+    </div>
+
+    <div class="interiors__gallery-photo interiors__gallery-photo--2 reveal-photo" data-check-img>
+      <img
+        src="images/gallery_image_10.jpg"
+        alt="CLOS 17 — интерьер"
+        loading="lazy"
+        width="600"
+        height="375"
+      >
+    </div>
+
+    <div class="interiors__gallery-photo interiors__gallery-photo--3 reveal-photo" data-check-img>
+      <img
+        src="images/gallery_image_11.jpg"
+        alt="CLOS 17 — интерьер"
+        loading="lazy"
+        width="600"
+        height="375"
+      >
+    </div>
+  </div>
+
+  <!-- CTA text-link -->
+  <div class="cta-textlink-wrap reveal" style="margin-top: clamp(32px, 4vw, 48px);">
+    <a href="#contact" class="cta-textlink">Записаться на просмотр →</a>
+  </div>
+
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION 5: RESIDENCES
+     ═══════════════════════════════════════════════════════════ -->
+<section class="residences section" id="residences" aria-label="Резиденции">
+
+  <div class="residences__header">
+    <p class="t-label residences__label reveal"></p>
+
+    <h2 class="t-section residences__heading reveal"></h2>
+
+    <p class="t-body-lg residences__text reveal"></p>
+  </div>
+
+  <!-- Key stats -->
+  <div class="residences__stats reveal-stagger">
+    <div class="residences__stat reveal">
+      <span class="residences__stat-label"></span>
+      <span class="residences__stat-value"></span>
+    </div>
+    <div class="residences__stat reveal">
+      <span class="residences__stat-label"></span>
+      <span class="residences__stat-value"></span>
+    </div>
+    <div class="residences__stat reveal">
+      <span class="residences__stat-label"></span>
+      <span class="residences__stat-value"></span>
+    </div>
+    <div class="residences__stat reveal">
+      <span class="residences__stat-label"></span>
+      <span class="residences__stat-value"></span>
+    </div>
+    <div class="residences__stat reveal">
+      <span class="residences__stat-label"></span>
+      <span class="residences__stat-value"></span>
+    </div>
+  </div>
+
+  <!-- Luxury photo -->
+  <div class="parallax-wrap" style="text-align: center;" data-check-img>
+    <img
+      class="residences__image reveal-photo parallax-img"
+      src="images/gallery_image_12.jpg"
+      alt="CLOS 17 — резиденции"
+      loading="lazy"
+      width="900"
+      height="506"
+    >
+  </div>
+
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION 6: LOCATION — Yandex Maps embed + distances
+     ═══════════════════════════════════════════════════════════ -->
+<section class="location" id="location" aria-label="Локация">
+
+  <div class="location__header">
+    <p class="t-label location__label reveal"></p>
+
+    <p class="location__address reveal"></p>
+
+    <p class="t-body-lg location__text reveal"></p>
+  </div>
+
+  <!-- Static Yandex Map — always loads, with red marker -->
+  <div class="location__map-wrap reveal-photo">
+    <a href="https://yandex.ru/maps/?pt=37.607,55.751&z=16&l=map" target="_blank" rel="noopener" style="display:block;">
+      <img
+        src="https://static-maps.yandex.ru/1.x/?ll=37.607,55.751&z=16&size=650,400&l=map&pt=37.607,55.751,pm2rdl&lang=ru_RU"
+        alt="CLOS 17 на карте"
+        style="width:100%;height:auto;display:block;"
+        loading="lazy"
+      >
+    </a>
+  </div>
+
+  <!-- Distances -->
+  <div class="location__distances reveal-stagger">
+    <div class="location__distance reveal">
+      <span class="location__distance-place"></span>
+      <span class="location__distance-value"></span>
+    </div>
+    <div class="location__distance reveal">
+      <span class="location__distance-place"></span>
+      <span class="location__distance-value"></span>
+    </div>
+    <div class="location__distance reveal">
+      <span class="location__distance-place"></span>
+      <span class="location__distance-value"></span>
+    </div>
+    <div class="location__distance reveal">
+      <span class="location__distance-place"></span>
+      <span class="location__distance-value"></span>
+    </div>
+    <div class="location__distance reveal">
+      <span class="location__distance-place"></span>
+      <span class="location__distance-value"></span>
+    </div>
+  </div>
+
+  <div class="location__link-wrap reveal">
+    <a href="https://yandex.ru/maps/?pt=37.607,55.751&z=16&l=map" target="_blank" rel="noopener" class="t-link">Открыть на карте</a>
+  </div>
+
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION 7: CONTACT — Warm bg, big heading, two CTA actions
+     ═══════════════════════════════════════════════════════════ -->
+<section class="contact" id="contact" aria-label="Связаться">
+
+  <div class="contact__inner">
+    <p class="t-label contact__label reveal"></p>
+
+    <h2 class="t-section contact__heading reveal"></h2>
+
+    <p class="t-body contact__subtext reveal"></p>
+
+    <form
+      class="contact__form reveal"
+      id="contactForm"
+      action="https://bpi-leads-api-production.up.railway.app/api/lead"
+      method="POST"
+      novalidate
+    >
+      <!-- Hidden fields -->
+      <input type="hidden" name="source" value="landing_v4">
+      <input type="hidden" name="project" value="CLOS 17">
+      <input type="hidden" name="utm_source" id="utmSource" value="">
+      <input type="hidden" name="utm_medium" id="utmMedium" value="">
+      <input type="hidden" name="utm_campaign" id="utmCampaign" value="">
+      <input type="hidden" name="utm_content" id="utmContent" value="">
+      <input type="hidden" name="utm_term" id="utmTerm" value="">
+      <input type="hidden" name="page_url" id="pageUrl" value="">
+
+      <div class="contact__field">
+        <label class="contact__field-label" for="contactName">Имя</label>
+        <input
+          class="contact__input"
+          type="text"
+          name="name"
+          id="contactName"
+          placeholder="Ваше имя"
+          autocomplete="name"
+          required
+        >
+      </div>
+
+      <div class="contact__field">
+        <label class="contact__field-label" for="contactPhone">Телефон</label>
+        <input
+          class="contact__input"
+          type="tel"
+          name="phone"
+          id="contactPhone"
+          placeholder="+7 (___) ___-__-__"
+          autocomplete="tel"
+          required
+          pattern="[+]?[0-9\s\-\(\)]{7,20}"
+        >
+      </div>
+
+      <div class="contact__field contact__field--select">
+        <label class="contact__field-label" for="contactMethod">Способ связи</label>
+        <select
+          class="contact__select"
+          name="preferred_contact"
+          id="contactMethod"
+          required
+        >
+          <option value="" disabled selected>Удобный способ связи</option>
+          <option value="whatsapp">WhatsApp</option>
+          <option value="telegram">Telegram</option>
+          <option value="call">Звонок</option>
+        </select>
+      </div>
+
+      <div class="contact__submit-wrap">
+        <div class="contact__buttons">
+          <button type="submit" class="contact__submit" id="contactSubmitBtn" name="action" value="catalog">
+            <span id="submitText">Выслать каталог</span>
+          </button>
+
+          <button type="submit" class="contact__submit contact__submit--secondary" name="action" value="viewing">
+            <span>Записаться на просмотр</span>
+          </button>
+        </div>
+
+        <p class="contact__response-time">Мы свяжемся с вами в течение 15 минут</p>
+
+        <p class="contact__privacy">
+          Нажимая кнопку, вы соглашаетесь с
+          <a href="/privacy-policy.html" target="_blank" rel="noopener">политикой обработки персональных данных</a>
+        </p>
+      </div>
+    </form>
+
+    <!-- Success message -->
+    <div class="contact__success" id="contactSuccess">
+      <p class="contact__success-heading">Спасибо</p>
+      <p class="t-body contact__success-text">Мы свяжемся с вами в течение 15 минут</p>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION 8: FOOTER — Dark, matching hero tone
+     ═══════════════════════════════════════════════════════════ -->
+<footer class="footer" role="contentinfo">
+  <div class="footer__inner">
+
+    <div class="footer__top">
+      <div class="footer__brand">
+        <span class="footer__logo">КЛО 17</span>
+        
+      </div>
+
+      <div class="footer__contact">
+        <span class="footer__address-line"></span>
+      </div>
+    </div>
+
+    <div class="footer__divider"></div>
+
+    <div class="footer__bottom">
+      <div>
+        <p class="footer__copyright">&copy; 2026 . Все права защищены.</p>
+        <div class="footer__links">
+          <a href="" target="_blank" rel="noopener" class="footer__link">Проектная декларация</a>
+          <a href="/privacy-policy.html" target="_blank" rel="noopener" class="footer__link">Обработка персональных данных</a>
+        </div>
+      </div>
+
+      <p class="footer__legal"></p>
+    </div>
+
+  </div>
+</footer>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     FLOATING CTA — Scroll to contact form button
+     Envelope icon. Click → smooth scroll to #contact.
+     ═══════════════════════════════════════════════════════════ -->
+<button class="floating-cta" id="floatingCta" aria-label="Связаться">
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <rect x="2" y="4" width="20" height="16" rx="2" />
+    <polyline points="2,4 12,13 22,4" />
+  </svg>
+</button>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     JAVASCRIPT
+     ═══════════════════════════════════════════════════════════ -->
+<script>
+(function() {
+  'use strict';
+
+  /* ──────────────────────────────────────────────────────────
+     AUTO-HIDE EMPTY IMAGES
+     ────────────────────────────────────────────────────────── */
+
+  function initAutoHideEmpty() {
+    document.querySelectorAll('[data-check-img]').forEach(function(wrapper) {
+      var img = wrapper.querySelector('img');
+      if (img) {
+        var src = img.getAttribute('src') || '';
+        if (!src || src.indexOf('{{') !== -1 || src.trim() === '') {
+          wrapper.classList.add('is-empty-hidden');
+        }
+      }
+    });
+
+    document.querySelectorAll('img').forEach(function(img) {
+      var src = img.getAttribute('src') || '';
+      if (!src || src.indexOf('{{') !== -1 || src.trim() === '') {
+        img.style.display = 'none';
+        var parent = img.parentElement;
+        if (parent && parent.children.length === 1) {
+          parent.style.display = 'none';
+        }
+      }
+    });
+
+    document.querySelectorAll('.location__distance, .residences__stat').forEach(function(row) {
+      var texts = row.querySelectorAll('span');
+      var allEmpty = true;
+      texts.forEach(function(span) {
+        var text = span.textContent.trim();
+        if (text !== '' && text.indexOf('{{') === -1) {
+          allEmpty = false;
+        }
+      });
+      if (allEmpty) {
+        row.style.display = 'none';
+      }
+    });
+
+    // Check iframe — if YANDEX_MAP_EMBED is empty/placeholder, show fallback image
+    var mapIframe = document.querySelector('.location__map-iframe');
+    if (mapIframe) {
+      var iframeSrc = mapIframe.getAttribute('src') || '';
+      if (!iframeSrc || iframeSrc.indexOf('{{') !== -1 || iframeSrc.trim() === '') {
+        mapIframe.style.display = 'none';
+        var fallbackImg = document.querySelector('.location__map-img');
+        var fallbackMarker = document.querySelector('.location__map-marker');
+        if (fallbackImg) fallbackImg.style.display = 'block';
+        if (fallbackMarker) fallbackMarker.style.display = 'block';
+      }
+    }
+  }
+
+
+  /* ──────────────────────────────────────────────────────────
+     SCROLL REVEAL — IntersectionObserver
+     ────────────────────────────────────────────────────────── */
+
+  function initScrollReveal() {
+    var revealElements = document.querySelectorAll('.reveal, .reveal-photo');
+
+    if (!('IntersectionObserver' in window)) {
+      revealElements.forEach(function(el) {
+        el.classList.add('is-visible');
+      });
+      return;
+    }
+
+    var observerOptions = {
+      root: null,
+      rootMargin: '0px 0px -40px 0px',
+      threshold: 0.05
+    };
+
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    revealElements.forEach(function(el) {
+      observer.observe(el);
+    });
+  }
+
+
+  /* ──────────────────────────────────────────────────────────
+     HEADER — Dark on hero, light after scroll
+     ────────────────────────────────────────────────────────── */
+
+  function initHeader() {
+    var header = document.getElementById('header');
+    var heroSection = document.querySelector('.hero');
+    var ticking = false;
+
+    function updateHeader() {
+      var scrollY = window.pageYOffset || document.documentElement.scrollTop;
+      var heroHeight = heroSection ? heroSection.offsetHeight : 600;
+
+      if (scrollY > heroHeight - 100) {
+        header.classList.add('is-scrolled');
+        header.classList.remove('header--dark');
+      } else if (scrollY > 80) {
+        header.classList.add('is-scrolled');
+        header.classList.remove('header--dark');
+      } else {
+        header.classList.remove('is-scrolled');
+        header.classList.add('header--dark');
+      }
+
+      ticking = false;
+    }
+
+    window.addEventListener('scroll', function() {
+      if (!ticking) {
+        requestAnimationFrame(updateHeader);
+        ticking = true;
+      }
+    }, { passive: true });
+  }
+
+
+  /* ──────────────────────────────────────────────────────────
+     NAVIGATION — Full-screen overlay toggle
+     ────────────────────────────────────────────────────────── */
+
+  function initNavigation() {
+    var menuBtn = document.getElementById('menuBtn');
+    var navOverlay = document.getElementById('navOverlay');
+    var navLinks = document.querySelectorAll('[data-nav]');
+    var isOpen = false;
+
+    function toggleNav() {
+      isOpen = !isOpen;
+      menuBtn.classList.toggle('is-open', isOpen);
+      navOverlay.classList.toggle('is-open', isOpen);
+      menuBtn.setAttribute('aria-expanded', isOpen.toString());
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    }
+
+    function closeNav() {
+      if (isOpen) {
+        isOpen = false;
+        menuBtn.classList.remove('is-open');
+        navOverlay.classList.remove('is-open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      }
+    }
+
+    menuBtn.addEventListener('click', toggleNav);
+
+    navLinks.forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        closeNav();
+
+        var targetId = this.getAttribute('href');
+        if (targetId && targetId.charAt(0) === '#') {
+          e.preventDefault();
+          var target = document.querySelector(targetId);
+          if (target) {
+            setTimeout(function() {
+              target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+              });
+            }, 300);
+          }
+        }
+      });
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && isOpen) {
+        closeNav();
+      }
+    });
+  }
+
+
+  /* ──────────────────────────────────────────────────────────
+     PARALLAX — Barely perceptible (2-3% movement)
+     ────────────────────────────────────────────────────────── */
+
+  function initParallax() {
+    var parallaxElements = document.querySelectorAll('.parallax-img');
+
+    if (parallaxElements.length === 0) return;
+    if (window.innerWidth < 768) return;
+
+    var ticking = false;
+
+    function updateParallax() {
+      var viewportHeight = window.innerHeight;
+
+      parallaxElements.forEach(function(el) {
+        var rect = el.getBoundingClientRect();
+        var elementCenter = rect.top + rect.height / 2;
+        var viewportCenter = viewportHeight / 2;
+        var distance = (elementCenter - viewportCenter) / viewportHeight;
+
+        var translateY = distance * -15;
+        el.style.transform = 'translateY(' + translateY + 'px) scale(1.02)';
+      });
+
+      ticking = false;
+    }
+
+    window.addEventListener('scroll', function() {
+      if (!ticking) {
+        requestAnimationFrame(updateParallax);
+        ticking = true;
+      }
+    }, { passive: true });
+  }
+
+
+  /* ──────────────────────────────────────────────────────────
+     FLOATING CTA — Scroll to contact form
+     ────────────────────────────────────────────────────────── */
+
+  function initFloatingCta() {
+    var floatingBtn = document.getElementById('floatingCta');
+    var contactSection = document.getElementById('contact');
+
+    if (!floatingBtn || !contactSection) return;
+
+    floatingBtn.addEventListener('click', function() {
+      contactSection.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    });
+
+    // Hide when near contact section
+    var ticking = false;
+
+    function updateFloatingVisibility() {
+      var contactRect = contactSection.getBoundingClientRect();
+      var scrollY = window.pageYOffset || document.documentElement.scrollTop;
+
+      // Hide if at the very top (hero) or near contact section
+      if (scrollY < 300 || contactRect.top < window.innerHeight) {
+        floatingBtn.classList.add('floating-cta--hidden');
+      } else {
+        floatingBtn.classList.remove('floating-cta--hidden');
+      }
+
+      ticking = false;
+    }
+
+    window.addEventListener('scroll', function() {
+      if (!ticking) {
+        requestAnimationFrame(updateFloatingVisibility);
+        ticking = true;
+      }
+    }, { passive: true });
+
+    // Initial check
+    updateFloatingVisibility();
+  }
+
+
+  /* ──────────────────────────────────────────────────────────
+     CONTACT FORM — Validation & Submission
+     ────────────────────────────────────────────────────────── */
+
+  function initContactForm() {
+    var form = document.getElementById('contactForm');
+    var successEl = document.getElementById('contactSuccess');
+    var submitBtn = document.getElementById('contactSubmitBtn');
+    var submitText = document.getElementById('submitText');
+
+    if (!form) return;
+
+    // Populate UTM params from URL
+    var urlParams = new URLSearchParams(window.location.search);
+
+    var utmSource = document.getElementById('utmSource');
+    var utmMedium = document.getElementById('utmMedium');
+    var utmCampaign = document.getElementById('utmCampaign');
+    var utmContent = document.getElementById('utmContent');
+    var utmTerm = document.getElementById('utmTerm');
+    var pageUrl = document.getElementById('pageUrl');
+
+    if (utmSource) utmSource.value = urlParams.get('utm_source') || '';
+    if (utmMedium) utmMedium.value = urlParams.get('utm_medium') || '';
+    if (utmCampaign) utmCampaign.value = urlParams.get('utm_campaign') || '';
+    if (utmContent) utmContent.value = urlParams.get('utm_content') || '';
+    if (utmTerm) utmTerm.value = urlParams.get('utm_term') || '';
+    if (pageUrl) pageUrl.value = window.location.href;
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      var name = document.getElementById('contactName');
+      var phone = document.getElementById('contactPhone');
+      var method = document.getElementById('contactMethod');
+
+      if (!name.value.trim()) {
+        shakeField(name.closest('.contact__field'));
+        name.focus();
+        return;
+      }
+
+      var phoneValue = phone.value.replace(/[\s\-\(\)]/g, '');
+      if (phoneValue.length < 7) {
+        shakeField(phone.closest('.contact__field'));
+        phone.focus();
+        return;
+      }
+
+      if (!method.value) {
+        shakeField(method.closest('.contact__field'));
+        method.focus();
+        return;
+      }
+
+      submitBtn.disabled = true;
+      submitText.textContent = 'ОТПРАВЛЯЕМ...';
+
+      var formData = new FormData(form);
+      var jsonData = {};
+      formData.forEach(function(value, key) { jsonData[key] = value; });
+      jsonData.project_name = document.querySelector('.t-hero-name') ? document.querySelector('.t-hero-name').textContent.trim() : '';
+      jsonData.source_url = window.location.href;
+
+      var actionUrl = form.getAttribute('action');
+
+      if (actionUrl && actionUrl.trim() !== '' && actionUrl.indexOf('{{') === -1) {
+        fetch(actionUrl, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(jsonData)
+        })
+        .then(function(response) {
+          showSuccess();
+          if (!response.ok) {
+            console.error('Form submission error:', response.status);
+          }
+        })
+        .catch(function(error) {
+          showSuccess();
+          console.error('Form submission error:', error);
+        });
+      } else {
+        showSuccess();
+      }
+    });
+
+    function showSuccess() {
+      form.style.display = 'none';
+      successEl.classList.add('is-visible');
+
+      if (typeof window.ym === 'function') {
+        window.ym(0, 'reachGoal', 'form_submit');
+      }
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'generate_lead', {
+          event_category: 'form',
+          event_label: 'contact_form'
+        });
+      }
+    }
+
+    function shakeField(fieldEl) {
+      if (!fieldEl) return;
+      fieldEl.style.transition = 'transform 0.08s ease';
+      fieldEl.style.borderBottomColor = '#C4A07A';
+
+      var shakes = [0, -4, 4, -3, 3, -1, 1, 0];
+      var i = 0;
+
+      function doShake() {
+        if (i < shakes.length) {
+          fieldEl.style.transform = 'translateX(' + shakes[i] + 'px)';
+          i++;
+          requestAnimationFrame(doShake);
+        } else {
+          fieldEl.style.transform = '';
+          setTimeout(function() {
+            fieldEl.style.borderBottomColor = '';
+          }, 1500);
+        }
+      }
+
+      requestAnimationFrame(doShake);
+    }
+  }
+
+
+  /* ──────────────────────────────────────────────────────────
+     PHONE FORMATTING
+     ────────────────────────────────────────────────────────── */
+
+  function initPhoneFormatting() {
+    var phoneInput = document.getElementById('contactPhone');
+    if (!phoneInput) return;
+
+    phoneInput.addEventListener('input', function() {
+      var value = this.value.replace(/\D/g, '');
+
+      if (value.length === 0) {
+        this.value = '';
+        return;
+      }
+
+      if (value.charAt(0) === '7' || value.charAt(0) === '8') {
+        var formatted = '+7';
+        if (value.length > 1) formatted += ' (' + value.substring(1, 4);
+        if (value.length > 4) formatted += ') ' + value.substring(4, 7);
+        if (value.length > 7) formatted += '-' + value.substring(7, 9);
+        if (value.length > 9) formatted += '-' + value.substring(9, 11);
+        this.value = formatted;
+      }
+    });
+
+    phoneInput.addEventListener('focus', function() {
+      if (!this.value) {
+        this.value = '+7 ';
+      }
+    });
+
+    phoneInput.addEventListener('blur', function() {
+      if (this.value === '+7 ' || this.value === '+7') {
+        this.value = '';
+      }
+    });
+  }
+
+
+  /* ──────────────────────────────────────────────────────────
+     SMOOTH SCROLL — for anchor links
+     ────────────────────────────────────────────────────────── */
+
+  function initSmoothScroll() {
+    document.querySelectorAll('a[href^="#"]').forEach(function(link) {
+      if (link.hasAttribute('data-nav')) return;
+
+      link.addEventListener('click', function(e) {
+        var targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+
+        var target = document.querySelector(targetId);
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+  }
+
+
+  /* ──────────────────────────────────────────────────────────
+     SCROLL INDICATOR FADE
+     ────────────────────────────────────────────────────────── */
+
+  function initScrollIndicator() {
+    var scrollEl = document.querySelector('.hero__scroll');
+    if (!scrollEl) return;
+
+    var hasScrolled = false;
+
+    function handleScroll() {
+      if (hasScrolled) return;
+
+      var scrollY = window.pageYOffset || document.documentElement.scrollTop;
+      if (scrollY > 100) {
+        hasScrolled = true;
+        scrollEl.style.transition = 'opacity 0.6s ease';
+        scrollEl.style.opacity = '0';
+        window.removeEventListener('scroll', handleScroll);
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+  }
+
+
+  /* ──────────────────────────────────────────────────────────
+     SELECT STYLING
+     ────────────────────────────────────────────────────────── */
+
+  function initSelectStyling() {
+    var selects = document.querySelectorAll('.contact__select');
+    selects.forEach(function(select) {
+      select.addEventListener('change', function() {
+        if (this.value) {
+          this.style.color = 'var(--text-warm)';
+          this.style.fontStyle = 'normal';
+        }
+      });
+    });
+  }
+
+
+  /* ──────────────────────────────────────────────────────────
+     VIEWPORT HEIGHT FIX — iOS Safari
+     ────────────────────────────────────────────────────────── */
+
+  function initViewportFix() {
+    function setVH() {
+      var vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', vh + 'px');
+    }
+
+    setVH();
+    window.addEventListener('resize', debounce(setVH, 150));
+  }
+
+
+  /* ──────────────────────────────────────────────────────────
+     UTILITY: Debounce
+     ────────────────────────────────────────────────────────── */
+
+  function debounce(fn, delay) {
+    var timer;
+    return function() {
+      var context = this;
+      var args = arguments;
+      clearTimeout(timer);
+      timer = setTimeout(function() {
+        fn.apply(context, args);
+      }, delay);
+    };
+  }
+
+
+  /* ──────────────────────────────────────────────────────────
+     INITIALIZATION
+     ────────────────────────────────────────────────────────── */
+
+  function init() {
+    initAutoHideEmpty();
+    initScrollReveal();
+    initHeader();
+    initNavigation();
+    initParallax();
+    initFloatingCta();
+    initContactForm();
+    initPhoneFormatting();
+    initSmoothScroll();
+    initScrollIndicator();
+    initSelectStyling();
+    initViewportFix();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+})();
+</script>
+
+
+<!-- ============================================
+     FLOOR PLANS SECTION (indytowers.com style)
+     ============================================ -->
+<section class="plans-section" id="plans-section">
+  <div class="plans-section__inner">
+    <p class="plans-section__label">Планировки</p>
+    <h2 class="plans-section__heading">Выберите свою резиденцию</h2>
+    <p class="plans-section__subtext">Нажмите на интересующий тип — мы отправим подробную планировку с актуальными ценами</p>
+    <div class="plans-grid plans-grid--5">
+      
+        <div class="plans-card">
+          <div class="plans-card__image">
+            <svg viewBox="0 0 200 180" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="10" width="80" height="60" fill="none" stroke="#B68E6C" stroke-width="1.5" rx="2"/>
+              <rect x="100" y="10" width="90" height="80" fill="none" stroke="#B68E6C" stroke-width="1.5" rx="2"/>
+              <rect x="10" y="80" width="80" height="90" fill="none" stroke="#B68E6C" stroke-width="1.5" rx="2"/>
+              <rect x="100" y="100" width="90" height="70" fill="none" stroke="#B68E6C" stroke-width="1.5" rx="2"/>
+              <line x1="90" y1="30" x2="100" y2="30" stroke="#B68E6C" stroke-width="3"/>
+              <line x1="50" y1="70" x2="50" y2="80" stroke="#B68E6C" stroke-width="3"/>
+              <line x1="140" y1="90" x2="140" y2="100" stroke="#B68E6C" stroke-width="3"/>
+              <text x="50" y="50" text-anchor="middle" font-size="9" fill="#B68E6C" font-family="DM Sans, Inter, sans-serif">1-комнатная</text>
+            </svg>
+          </div>
+          <h4 class="plans-card__title">1-комнатная</h4>
+          <span class="plans-card__area">от 96.85–105.9 м²</span>
+          <a href="#modal-callback" class="plans-card__cta pulse-trigger">Узнать цены</a>
+        </div>
+        <div class="plans-card">
+          <div class="plans-card__image">
+            <svg viewBox="0 0 200 180" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="10" width="80" height="60" fill="none" stroke="#B68E6C" stroke-width="1.5" rx="2"/>
+              <rect x="100" y="10" width="90" height="80" fill="none" stroke="#B68E6C" stroke-width="1.5" rx="2"/>
+              <rect x="10" y="80" width="80" height="90" fill="none" stroke="#B68E6C" stroke-width="1.5" rx="2"/>
+              <rect x="100" y="100" width="90" height="70" fill="none" stroke="#B68E6C" stroke-width="1.5" rx="2"/>
+              <line x1="90" y1="30" x2="100" y2="30" stroke="#B68E6C" stroke-width="3"/>
+              <line x1="50" y1="70" x2="50" y2="80" stroke="#B68E6C" stroke-width="3"/>
+              <line x1="140" y1="90" x2="140" y2="100" stroke="#B68E6C" stroke-width="3"/>
+              <text x="50" y="50" text-anchor="middle" font-size="9" fill="#B68E6C" font-family="DM Sans, Inter, sans-serif">2-комнатная</text>
+            </svg>
+          </div>
+          <h4 class="plans-card__title">2-комнатная</h4>
+          <span class="plans-card__area">от 152.55–153.5 м²</span>
+          <a href="#modal-callback" class="plans-card__cta pulse-trigger">Узнать цены</a>
+        </div>
+        <div class="plans-card">
+          <div class="plans-card__image">
+            <svg viewBox="0 0 200 180" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="10" width="80" height="60" fill="none" stroke="#B68E6C" stroke-width="1.5" rx="2"/>
+              <rect x="100" y="10" width="90" height="80" fill="none" stroke="#B68E6C" stroke-width="1.5" rx="2"/>
+              <rect x="10" y="80" width="80" height="90" fill="none" stroke="#B68E6C" stroke-width="1.5" rx="2"/>
+              <rect x="100" y="100" width="90" height="70" fill="none" stroke="#B68E6C" stroke-width="1.5" rx="2"/>
+              <line x1="90" y1="30" x2="100" y2="30" stroke="#B68E6C" stroke-width="3"/>
+              <line x1="50" y1="70" x2="50" y2="80" stroke="#B68E6C" stroke-width="3"/>
+              <line x1="140" y1="90" x2="140" y2="100" stroke="#B68E6C" stroke-width="3"/>
+              <text x="50" y="50" text-anchor="middle" font-size="9" fill="#B68E6C" font-family="DM Sans, Inter, sans-serif">3-комнатная</text>
+            </svg>
+          </div>
+          <h4 class="plans-card__title">3-комнатная</h4>
+          <span class="plans-card__area">от 217.7 м²</span>
+          <a href="#modal-callback" class="plans-card__cta pulse-trigger">Узнать цены</a>
+        </div>
+        <div class="plans-card">
+          <div class="plans-card__image">
+            <svg viewBox="0 0 200 180" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="10" width="80" height="60" fill="none" stroke="#B68E6C" stroke-width="1.5" rx="2"/>
+              <rect x="100" y="10" width="90" height="80" fill="none" stroke="#B68E6C" stroke-width="1.5" rx="2"/>
+              <rect x="10" y="80" width="80" height="90" fill="none" stroke="#B68E6C" stroke-width="1.5" rx="2"/>
+              <rect x="100" y="100" width="90" height="70" fill="none" stroke="#B68E6C" stroke-width="1.5" rx="2"/>
+              <line x1="90" y1="30" x2="100" y2="30" stroke="#B68E6C" stroke-width="3"/>
+              <line x1="50" y1="70" x2="50" y2="80" stroke="#B68E6C" stroke-width="3"/>
+              <line x1="140" y1="90" x2="140" y2="100" stroke="#B68E6C" stroke-width="3"/>
+              <text x="50" y="50" text-anchor="middle" font-size="9" fill="#B68E6C" font-family="DM Sans, Inter, sans-serif">Пентхаус (ма</text>
+            </svg>
+          </div>
+          <h4 class="plans-card__title">Пентхаус (малый)</h4>
+          <span class="plans-card__area">от 250.2 м²</span>
+          <a href="#modal-callback" class="plans-card__cta pulse-trigger">Узнать цены</a>
+        </div>
+        <div class="plans-card">
+          <div class="plans-card__image">
+            <svg viewBox="0 0 200 180" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="10" width="80" height="60" fill="none" stroke="#B68E6C" stroke-width="1.5" rx="2"/>
+              <rect x="100" y="10" width="90" height="80" fill="none" stroke="#B68E6C" stroke-width="1.5" rx="2"/>
+              <rect x="10" y="80" width="80" height="90" fill="none" stroke="#B68E6C" stroke-width="1.5" rx="2"/>
+              <rect x="100" y="100" width="90" height="70" fill="none" stroke="#B68E6C" stroke-width="1.5" rx="2"/>
+              <line x1="90" y1="30" x2="100" y2="30" stroke="#B68E6C" stroke-width="3"/>
+              <line x1="50" y1="70" x2="50" y2="80" stroke="#B68E6C" stroke-width="3"/>
+              <line x1="140" y1="90" x2="140" y2="100" stroke="#B68E6C" stroke-width="3"/>
+              <text x="50" y="50" text-anchor="middle" font-size="9" fill="#B68E6C" font-family="DM Sans, Inter, sans-serif">Пентхаус (бо</text>
+            </svg>
+          </div>
+          <h4 class="plans-card__title">Пентхаус (большой)</h4>
+          <span class="plans-card__area">от 306.2–420 м²</span>
+          <a href="#modal-callback" class="plans-card__cta pulse-trigger">Узнать цены</a>
+        </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.plans-section {
+  padding: 80px 0;
+  background: #1D252D;
+  color: #fff;
+}
+.plans-section__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  text-align: center;
+}
+.plans-section__label {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #B68E6C;
+  margin-bottom: 12px;
+}
+.plans-section__heading {
+  font-size: clamp(24px, 3.5vw, 36px);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.plans-section__subtext {
+  font-size: 15px;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 48px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.plans-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.plans-grid--3 { grid-template-columns: repeat(3, 1fr); }
+.plans-grid--4 { grid-template-columns: repeat(4, 1fr); }
+.plans-grid--5 { grid-template-columns: repeat(5, 1fr); }
+@media (max-width: 768px) {
+  .plans-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 480px) {
+  .plans-grid { grid-template-columns: 1fr; max-width: 300px; margin: 0 auto; }
+}
+.plans-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  padding: 24px 16px 20px;
+  text-align: center;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+.plans-card:hover {
+  border-color: #B68E6C;
+  transform: translateY(-4px);
+}
+.plans-card__image {
+  width: 100%;
+  max-width: 180px;
+  margin: 0 auto 16px;
+}
+.plans-card__image svg {
+  width: 100%;
+  height: auto;
+}
+.plans-card__title {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-bottom: 6px;
+}
+.plans-card__area {
+  display: block;
+  font-size: 13px;
+  color: rgba(255,255,255,0.5);
+  margin-bottom: 16px;
+}
+.plans-card__cta {
+  display: inline-block;
+  padding: 10px 24px;
+  border: 1px solid #B68E6C;
+  border-radius: 50px;
+  color: #B68E6C;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-top: 12px;
+}
+.plans-card__cta:hover {
+  background: #B68E6C;
+  color: #fff;
+}
+</style>
+
+<!-- ============================================
+     CONVERSION BOOST MODULE
+     Add before </body> in any landing page
+     ============================================ -->
+
+<!-- 1. FLOATING PULSE BUTTON (always visible, bottom-right) -->
+<div class="pulse-wrap" id="pulseBtn">
+  <a href="#modal-callback" class="pulse-trigger">
+    <span class="pulse-ring"></span>
+    <span class="pulse-ring pulse-ring--delay"></span>
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+  </a>
+</div>
+
+<!-- 2. CALLBACK MODAL POPUP -->
+<div class="modal-overlay" id="modalCallback">
+  <div class="modal-content">
+    <button class="modal-close" id="modalClose">&times;</button>
+    <h3 class="modal-title">Узнайте актуальные цены</h3>
+    <p class="modal-subtitle">Оставьте номер — перезвоним за 2 минуты</p>
+    <form class="modal-form" id="modalForm">
+      <input type="text" name="name" placeholder="Ваше имя" required class="modal-input">
+      <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required class="modal-input" id="modalPhone">
+      <input type="text" name="middle_name" style="display:none !important" tabindex="-1" autocomplete="off">
+      <button type="submit" class="modal-submit">Заказать звонок</button>
+    </form>
+    <p class="modal-privacy">Нажимая кнопку, вы соглашаетесь с <a href="/privacy-policy.html">политикой обработки данных</a></p>
+    <div class="modal-success" id="modalSuccess" style="display:none;">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+      <h4>Спасибо!</h4>
+      <p>Перезвоним в течение 2 минут</p>
+    </div>
+  </div>
+</div>
+
+<!-- 3. SCARCITY POP-UP (appears after 45 seconds) -->
+<div class="scarcity-popup" id="scarcityPopup">
+  <button class="scarcity-close" id="scarcityClose">&times;</button>
+  <div class="scarcity-badge">Ограниченное предложение</div>
+  <p class="scarcity-text">Осталось несколько квартир по специальным условиям</p>
+  <a href="#modal-callback" class="scarcity-cta pulse-trigger">Узнать цены →</a>
+</div>
+
+<!-- 4. STICKY BOTTOM CTA BAR (mobile) -->
+<div class="sticky-cta" id="stickyCta">
+  <a href="#modal-callback" class="sticky-cta__btn pulse-trigger">
+    <span>Узнать цены</span>
+  </a>
+  <a href="tel:+74951234567" class="sticky-cta__phone">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+  </a>
+</div>
+
+<style>
+/* ── FLOATING PULSE BUTTON ── */
+.pulse-wrap {
+  position: fixed;
+  bottom: 100px;
+  right: 24px;
+  z-index: 999;
+}
+.pulse-wrap a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #1D252D;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.pulse-wrap a:hover { transform: scale(1.1); }
+.pulse-ring {
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  border: 2px solid #1D252D;
+  opacity: 0;
+  animation: pulseRing 2s ease-out infinite;
+}
+.pulse-ring--delay { animation-delay: 0.6s; }
+@keyframes pulseRing {
+  0% { transform: scale(0.8); opacity: 0.6; }
+  100% { transform: scale(1.6); opacity: 0; }
+}
+
+/* ── CALLBACK MODAL ── */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(4px);
+  z-index: 10000;
+  align-items: center;
+  justify-content: center;
+}
+.modal-overlay.active { display: flex; }
+.modal-content {
+  background: #fff;
+  border-radius: 12px;
+  padding: 48px 40px;
+  max-width: 420px;
+  width: 90%;
+  position: relative;
+  animation: modalIn 0.3s ease;
+}
+@keyframes modalIn {
+  from { opacity: 0; transform: scale(0.9) translateY(20px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+.modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #999;
+  line-height: 1;
+}
+.modal-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #1D252D;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.modal-subtitle {
+  font-size: 14px;
+  color: #6B6B6B;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.modal-input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-bottom: 12px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.modal-input:focus { border-color: #1D252D; }
+.modal-submit {
+  width: 100%;
+  padding: 16px;
+  background: #1D252D;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  transition: background 0.3s;
+}
+.modal-submit:hover { background: #2a3540; }
+.modal-privacy {
+  font-size: 11px;
+  color: #999;
+  text-align: center;
+  margin-top: 12px;
+}
+.modal-privacy a { color: #999; text-decoration: underline; }
+.modal-success { text-align: center; padding: 20px 0; }
+.modal-success h4 { margin: 12px 0 4px; font-size: 20px; color: #1D252D; }
+.modal-success p { color: #6B6B6B; font-size: 14px; }
+
+/* ── SCARCITY POP-UP ── */
+.scarcity-popup {
+  display: none;
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px 24px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+  z-index: 9998;
+  max-width: 320px;
+  animation: slideUp 0.4s ease;
+}
+.scarcity-popup.active { display: block; }
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.scarcity-close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #999;
+}
+.scarcity-badge {
+  display: inline-block;
+  background: #B68E6C;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.scarcity-text {
+  font-size: 15px;
+  color: #1D252D;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+.scarcity-cta {
+  display: inline-block;
+  color: #1D252D;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  border-bottom: 1px solid #1D252D;
+  padding-bottom: 2px;
+}
+
+/* ── STICKY BOTTOM CTA (mobile only) ── */
+.sticky-cta {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9990;
+  padding: 12px 16px;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid rgba(0,0,0,0.06);
+  gap: 10px;
+  align-items: center;
+}
+.sticky-cta__btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  background: #1D252D;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.sticky-cta__phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  color: #1D252D;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .sticky-cta { display: flex; }
+  .pulse-wrap { bottom: 80px; }
+}
+</style>
+
+<script>
+(function() {
+  /* ── Modal open/close ── */
+  var modal = document.getElementById('modalCallback');
+  var triggers = document.querySelectorAll('.pulse-trigger, [href="#modal-callback"]');
+  triggers.forEach(function(t) {
+    t.addEventListener('click', function(e) {
+      e.preventDefault();
+      modal.classList.add('active');
+    });
+  });
+  document.getElementById('modalClose').addEventListener('click', function() {
+    modal.classList.remove('active');
+  });
+  modal.addEventListener('click', function(e) {
+    if (e.target === modal) modal.classList.remove('active');
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') modal.classList.remove('active');
+  });
+
+  /* ── Modal phone mask ── */
+  var mp = document.getElementById('modalPhone');
+  if (mp) {
+    mp.addEventListener('input', function() {
+      var d = this.value.replace(/\D/g, '').replace(/^[78]/, '');
+      var f = '+7';
+      if (d.length > 0) f += ' (' + d.substring(0, 3);
+      if (d.length > 3) f += ') ' + d.substring(3, 6);
+      if (d.length > 6) f += '-' + d.substring(6, 8);
+      if (d.length > 8) f += '-' + d.substring(8, 10);
+      this.value = f;
+    });
+    mp.addEventListener('focus', function() {
+      if (!this.value) this.value = '+7 (';
+    });
+  }
+
+  /* ── Modal form submit ── */
+  var mf = document.getElementById('modalForm');
+  var ms = document.getElementById('modalSuccess');
+  if (mf) {
+    mf.addEventListener('submit', function(e) {
+      e.preventDefault();
+      mf.style.display = 'none';
+      document.querySelector('.modal-subtitle').style.display = 'none';
+      ms.style.display = 'block';
+      setTimeout(function() { modal.classList.remove('active'); }, 3000);
+    });
+  }
+
+  /* ── Scarcity popup (45s delay) ── */
+  var sp = document.getElementById('scarcityPopup');
+  setTimeout(function() {
+    if (sp && !sessionStorage.getItem('scarcity_closed')) {
+      sp.classList.add('active');
+    }
+  }, 45000);
+  document.getElementById('scarcityClose').addEventListener('click', function() {
+    sp.classList.remove('active');
+    sessionStorage.setItem('scarcity_closed', '1');
+  });
+
+  /* ── Hide sticky CTA near form section ── */
+  var stickyCta = document.getElementById('stickyCta');
+  var contactSection = document.getElementById('contact') || document.getElementById('consultation');
+  if (stickyCta && contactSection) {
+    var stickyObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        stickyCta.style.opacity = entry.isIntersecting ? '0' : '1';
+        stickyCta.style.pointerEvents = entry.isIntersecting ? 'none' : 'auto';
+      });
+    }, { threshold: 0.1 });
+    stickyObserver.observe(contactSection);
+  }
+})();
+</script>
+
+</body>
+</html>

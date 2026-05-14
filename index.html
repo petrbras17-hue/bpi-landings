@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BPI Group — Каталог лендингов</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,'SF Pro Display','Helvetica Neue',Arial,sans-serif;background:#fafaf7;color:#1a1a1a;line-height:1.5;padding:40px 20px}
+  .wrap{max-width:1200px;margin:0 auto}
+  header{margin-bottom:48px}
+  h1{font-size:36px;font-weight:300;letter-spacing:-0.5px;margin-bottom:8px}
+  .sub{color:#666;font-size:15px}
+  .meta{margin-top:16px;color:#888;font-size:13px}
+  .search-wrap{margin:32px 0 24px;position:relative}
+  #search{width:100%;padding:14px 20px;font-size:16px;border:1px solid #ddd;background:#fff;border-radius:8px;outline:none;font-family:inherit;transition:border-color .15s}
+  #search:focus{border-color:#1a1a1a}
+  .count{color:#888;font-size:13px;margin-top:8px}
+  section{margin-bottom:48px}
+  h2{font-size:20px;font-weight:500;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid #e8e8e0;display:flex;align-items:baseline;justify-content:space-between}
+  h2 .num{font-size:13px;color:#888;font-weight:400}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:8px}
+  .card{display:block;padding:14px 16px;background:#fff;border:1px solid #ececec;border-radius:6px;text-decoration:none;color:#1a1a1a;transition:all .12s}
+  .card:hover{border-color:#1a1a1a;background:#fff;transform:translateY(-1px);box-shadow:0 2px 8px rgba(0,0,0,.04)}
+  .card .name{font-size:14px;font-weight:500;margin-bottom:2px}
+  .card .dev{font-size:11px;color:#999;text-transform:uppercase;letter-spacing:0.5px}
+  .premium .card{background:linear-gradient(180deg,#fff,#fafaf5);border-color:#d4cab8}
+  .premium .card:hover{border-color:#8a7a4e}
+  .premium .card .name{font-size:15px}
+  .premium .grid{grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+  footer{margin-top:64px;padding-top:24px;border-top:1px solid #e8e8e0;color:#888;font-size:12px;text-align:center}
+  .empty{padding:40px;text-align:center;color:#999;font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>BPI Group — Каталог лендингов ЖК</h1>
+    <div class="sub">Премиум-резиденции и каталог жилых комплексов Москвы и области</div>
+    <div class="meta" id="meta">Загрузка…</div>
+  </header>
+
+  <div class="search-wrap">
+    <input type="search" id="search" placeholder="Поиск по названию ЖК…" autocomplete="off">
+    <div class="count" id="count"></div>
+  </div>
+
+  <section class="premium" id="premium-section">
+    <h2>Премиум-резиденции <span class="num" id="premium-num"></span></h2>
+    <div class="grid" id="premium-grid"></div>
+  </section>
+
+  <section id="seo-section">
+    <h2>Каталог ЖК <span class="num" id="seo-num"></span></h2>
+    <div class="grid" id="seo-grid"></div>
+  </section>
+
+  <footer>
+    BPI Group · BPI Group Premium Real Estate · Москва<br>
+    Контакт: <a href="mailto:info@bpi-group.ru" style="color:#888">info@bpi-group.ru</a>
+  </footer>
+</div>
+
+<script>
+fetch('catalog.json').then(r => r.json()).then(data => {
+  const pg = document.getElementById('premium-grid');
+  const sg = document.getElementById('seo-grid');
+
+  data.premium.forEach(item => {
+    const a = document.createElement('a');
+    a.className = 'card';
+    a.href = item.url;
+    a.target = '_blank';
+    a.dataset.search = (item.name + ' ' + item.developer + ' ' + item.slug).toLowerCase();
+    a.innerHTML = `<div class="name">${item.name}</div><div class="dev">${item.developer}</div>`;
+    pg.appendChild(a);
+  });
+
+  data.seo.forEach(item => {
+    const a = document.createElement('a');
+    a.className = 'card';
+    a.href = item.url;
+    a.target = '_blank';
+    a.dataset.search = (item.name + ' ' + item.slug).toLowerCase();
+    a.innerHTML = `<div class="name">${item.name}</div>`;
+    sg.appendChild(a);
+  });
+
+  document.getElementById('premium-num').textContent = data.premium.length;
+  document.getElementById('seo-num').textContent = data.seo.length;
+  document.getElementById('meta').textContent = `${data.premium.length + data.seo.length} лендингов · обновлено ${new Date().toLocaleDateString('ru-RU')}`;
+
+  const search = document.getElementById('search');
+  const countEl = document.getElementById('count');
+  search.addEventListener('input', e => {
+    const q = e.target.value.toLowerCase().trim();
+    let visible = 0;
+    document.querySelectorAll('.card').forEach(c => {
+      const match = !q || c.dataset.search.includes(q);
+      c.style.display = match ? '' : 'none';
+      if (match) visible++;
+    });
+    countEl.textContent = q ? `Найдено: ${visible}` : '';
+    document.getElementById('premium-section').style.display = q && [...pg.children].every(c => c.style.display === 'none') ? 'none' : '';
+    document.getElementById('seo-section').style.display = q && [...sg.children].every(c => c.style.display === 'none') ? 'none' : '';
+  });
+});
+</script>
+</body>
+</html>

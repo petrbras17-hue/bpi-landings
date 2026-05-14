@@ -1,0 +1,1016 @@
+{
+  "premium": [
+    {
+      "slug": "brusov",
+      "name": "Брюсов переулок",
+      "developer": "Sminex",
+      "url": "premium/brusov/"
+    },
+    {
+      "slug": "bvlgari",
+      "name": "Bvlgari Hotel & Residences",
+      "developer": "Mosrealstroy",
+      "url": "premium/bvlgari/"
+    },
+    {
+      "slug": "clos17",
+      "name": "Clos 17",
+      "developer": "Sminex",
+      "url": "premium/clos17/"
+    },
+    {
+      "slug": "frunzenskaya",
+      "name": "Фрунзенская набережная",
+      "developer": "Sminex",
+      "url": "premium/frunzenskaya/"
+    },
+    {
+      "slug": "lavrushinsky",
+      "name": "Лаврушинский",
+      "developer": "Sminex",
+      "url": "premium/lavrushinsky/"
+    },
+    {
+      "slug": "lifetime",
+      "name": "Lifetime",
+      "developer": "Sminex",
+      "url": "premium/lifetime/"
+    },
+    {
+      "slug": "nicole",
+      "name": "Nicole",
+      "developer": "Sminex",
+      "url": "premium/nicole/"
+    },
+    {
+      "slug": "obydenskiy",
+      "name": "Обыденский",
+      "developer": "Sminex",
+      "url": "premium/obydenskiy/"
+    },
+    {
+      "slug": "phantom",
+      "name": "Phantom",
+      "developer": "Sminex",
+      "url": "premium/phantom/"
+    },
+    {
+      "slug": "tishinskiy",
+      "name": "Тишинский",
+      "developer": "Sminex",
+      "url": "premium/tishinskiy/"
+    }
+  ],
+  "seo": [
+    {
+      "slug": "10-yardov-10-yards",
+      "name": "10 Ярдов (10 Yards) — 10 Ярдов",
+      "url": "seo/10-yardov-10-yards.html"
+    },
+    {
+      "slug": "agalarov-estate-agalarov-estejt",
+      "name": "Agalarov Estate (Агаларов Эстейт) — Агаларов Эстейт",
+      "url": "seo/agalarov-estate-agalarov-estejt.html"
+    },
+    {
+      "slug": "ahead",
+      "name": "AHEAD — Vos'hod",
+      "url": "seo/ahead.html"
+    },
+    {
+      "slug": "akademicheskie-dachi",
+      "name": "Академические дачи — Академические дачи",
+      "url": "seo/akademicheskie-dachi.html"
+    },
+    {
+      "slug": "akademiya-park",
+      "name": "Академия Парк — Академия Парк",
+      "url": "seo/akademiya-park.html"
+    },
+    {
+      "slug": "aleksandra",
+      "name": "Александра — Александра",
+      "url": "seo/aleksandra.html"
+    },
+    {
+      "slug": "aleksandrovy-prudy",
+      "name": "Александровы Пруды — Александровы Пруды",
+      "url": "seo/aleksandrovy-prudy.html"
+    },
+    {
+      "slug": "alpijskie-gorki",
+      "name": "Альпийские горки — Альпийские горки",
+      "url": "seo/alpijskie-gorki.html"
+    },
+    {
+      "slug": "angelovo",
+      "name": "Ангелово — Ангелово",
+      "url": "seo/angelovo.html"
+    },
+    {
+      "slug": "anglijskij-kvartal-v-anosino",
+      "name": "Английский квартал в Аносино — Kensington",
+      "url": "seo/anglijskij-kvartal-v-anosino.html"
+    },
+    {
+      "slug": "armani-casa-moscow-residences",
+      "name": "Armani/Casa Moscow Residences — купить квартиру в ЦАО от 597 млн ₽ | Москва 2026",
+      "url": "seo/armani-casa-moscow-residences.html"
+    },
+    {
+      "slug": "art-eco-art-eko",
+      "name": "Art.Eco (Арт Эко) — Art Eco",
+      "url": "seo/art-eco-art-eko.html"
+    },
+    {
+      "slug": "artisan",
+      "name": "Artisan — ERA One Holding",
+      "url": "seo/artisan.html"
+    },
+    {
+      "slug": "avrora-waterville",
+      "name": "Аврора (Waterville) — Аврора",
+      "url": "seo/avrora-waterville.html"
+    },
+    {
+      "slug": "azarovo",
+      "name": "Азарово — Азарово",
+      "url": "seo/azarovo.html"
+    },
+    {
+      "slug": "badaevskij",
+      "name": "ЖК Бадаевский — купить квартиру на Кутузовском | Herzog & de Meuron, Capital Gro",
+      "url": "seo/badaevskij.html"
+    },
+    {
+      "slug": "baden-khills",
+      "name": "Баден Хиллс — Баден Хиллс",
+      "url": "seo/baden-khills.html"
+    },
+    {
+      "slug": "barkli-virgin-house",
+      "name": "Barkli Virgin House — Barkli Corporation",
+      "url": "seo/barkli-virgin-house.html"
+    },
+    {
+      "slug": "barvikha-khills",
+      "name": "Барвиха Хиллс — Capital Group",
+      "url": "seo/barvikha-khills.html"
+    },
+    {
+      "slug": "barvikha-xxi",
+      "name": "Барвиха XXI — Barnes International Realty",
+      "url": "seo/barvikha-xxi.html"
+    },
+    {
+      "slug": "bayside-residence",
+      "name": "Bayside Residence — Bayside",
+      "url": "seo/bayside-residence.html"
+    },
+    {
+      "slug": "belgijskaya-derevnya",
+      "name": "Бельгийская деревня — Бельгийская деревня",
+      "url": "seo/belgijskaya-derevnya.html"
+    },
+    {
+      "slug": "beryozki-river-village",
+      "name": "Берёзки River Village — Галс-Девелопмент",
+      "url": "seo/beryozki-river-village.html"
+    },
+    {
+      "slug": "bolshaya-dmitrovka-ix",
+      "name": "Большая Дмитровка IX — ENGEO Development",
+      "url": "seo/bolshaya-dmitrovka-ix.html"
+    },
+    {
+      "slug": "britanika-britanika",
+      "name": "Britanika (Британика) — Британика",
+      "url": "seo/britanika-britanika.html"
+    },
+    {
+      "slug": "brodskij",
+      "name": "Бродский — Vesper",
+      "url": "seo/brodskij.html"
+    },
+    {
+      "slug": "bvlgari-hotel-residences-moscow",
+      "name": "BVLGARI Hotel & Residences Moscow — Классика Италии в историческом центре Москвы",
+      "url": "seo/bvlgari-hotel-residences-moscow.html"
+    },
+    {
+      "slug": "carr-blanc",
+      "name": "ЖК Carré Blanc — купить апартаменты на Золотой Миле от 441 млн ₽ | Москва 2026",
+      "url": "seo/carr-blanc.html"
+    },
+    {
+      "slug": "ch-teau-souverain-shato-soveren",
+      "name": "Château Souverain (Шато Соверен) — Elvic Plus",
+      "url": "seo/ch-teau-souverain-shato-soveren.html"
+    },
+    {
+      "slug": "chistye-prudy",
+      "name": "Чистые Пруды — Sminex",
+      "url": "seo/chistye-prudy.html"
+    },
+    {
+      "slug": "club-house-duo",
+      "name": "Club House DUO — Hutton Development",
+      "url": "seo/club-house-duo.html"
+    },
+    {
+      "slug": "crystal-istra-kristal-istra",
+      "name": "Crystal Istra (Кристал Истра) — Alto Development",
+      "url": "seo/crystal-istra-kristal-istra.html"
+    },
+    {
+      "slug": "dom-bakst",
+      "name": "Дом Бакст — По запросу",
+      "url": "seo/dom-bakst.html"
+    },
+    {
+      "slug": "dom-s-atlantami",
+      "name": "Дом с Атлантами — купить квартиру на Солянке от 295 млн ₽ | Москва 2026",
+      "url": "seo/dom-s-atlantami.html"
+    },
+    {
+      "slug": "dom-v-gazetnom",
+      "name": "Дом в Газетном — Актив-Центр",
+      "url": "seo/dom-v-gazetnom.html"
+    },
+    {
+      "slug": "dovil-deauville",
+      "name": "Довиль (Deauville) — Villagio Estate / Высшая лига",
+      "url": "seo/dovil-deauville.html"
+    },
+    {
+      "slug": "fedoskino-park",
+      "name": "Федоскино Парк — Федоскино Парк",
+      "url": "seo/fedoskino-park.html"
+    },
+    {
+      "slug": "florans",
+      "name": "Флоранс — Флоранс",
+      "url": "seo/florans.html"
+    },
+    {
+      "slug": "futuro-park-futuro-park",
+      "name": "Futuro Park (Футуро Парк) — Villagio Estate",
+      "url": "seo/futuro-park-futuro-park.html"
+    },
+    {
+      "slug": "glagolevo-park",
+      "name": "Глаголево-Парк — ООО «ГринСтрой»",
+      "url": "seo/glagolevo-park.html"
+    },
+    {
+      "slug": "golf-klub-pestovo",
+      "name": "Гольф-клуб Пестово — Leto Estate",
+      "url": "seo/golf-klub-pestovo.html"
+    },
+    {
+      "slug": "golubinskaya-28",
+      "name": "Голубинская, 28 — ГК А101",
+      "url": "seo/golubinskaya-28.html"
+    },
+    {
+      "slug": "gorki-2",
+      "name": "Горки-2 — Горки-2",
+      "url": "seo/gorki-2.html"
+    },
+    {
+      "slug": "gorki-8",
+      "name": "Горки-8 — Горки-8",
+      "url": "seo/gorki-8.html"
+    },
+    {
+      "slug": "grafskie-prudy",
+      "name": "Графские пруды — Графские пруды",
+      "url": "seo/grafskie-prudy.html"
+    },
+    {
+      "slug": "granatnyj-palas",
+      "name": "Гранатный Палас — По запросу",
+      "url": "seo/granatnyj-palas.html"
+    },
+    {
+      "slug": "greenfield-grinfild",
+      "name": "Greenfield (Гринфилд) — Villagio Estate",
+      "url": "seo/greenfield-grinfild.html"
+    },
+    {
+      "slug": "gribovo",
+      "name": "Грибово — Грибово",
+      "url": "seo/gribovo.html"
+    },
+    {
+      "slug": "highwood-residence",
+      "name": "Highwood Residence — Highwood",
+      "url": "seo/highwood-residence.html"
+    },
+    {
+      "slug": "ice-towers",
+      "name": "ICE Towers — Град Девелопмент",
+      "url": "seo/ice-towers.html"
+    },
+    {
+      "slug": "ilinka-3-8",
+      "name": "Илинка 3/8 — Sminex",
+      "url": "seo/ilinka-3-8.html"
+    },
+    {
+      "slug": "ilinka",
+      "name": "Ильинка — Ильинка",
+      "url": "seo/ilinka.html"
+    },
+    {
+      "slug": "ilinskie-dachi",
+      "name": "Ильинские дачи — Ильинские дачи",
+      "url": "seo/ilinskie-dachi.html"
+    },
+    {
+      "slug": "ilinskie-kholmy-ilinsky-hills",
+      "name": "Ильинские Холмы (Ilinsky Hills) — Ильинские Холмы",
+      "url": "seo/ilinskie-kholmy-ilinsky-hills.html"
+    },
+    {
+      "slug": "izumrudnaya-dolina",
+      "name": "Изумрудная долина — Изумрудная долина",
+      "url": "seo/izumrudnaya-dolina.html"
+    },
+    {
+      "slug": "jois",
+      "name": "JOIS — MR Group",
+      "url": "seo/jois.html"
+    },
+    {
+      "slug": "kamerger",
+      "name": "Камергер — ENGEO Development",
+      "url": "seo/kamerger.html"
+    },
+    {
+      "slug": "kamyshi-kamishi",
+      "name": "Камыши (Kamishi) — Камыши",
+      "url": "seo/kamyshi-kamishi.html"
+    },
+    {
+      "slug": "kembridzh",
+      "name": "Кембридж — Villagio Estate / Кембридж",
+      "url": "seo/kembridzh.html"
+    },
+    {
+      "slug": "khamovniki-12",
+      "name": "Хамовники 12 — купить квартиру De Luxe в Хамовниках от 200 млн ₽ | COLDY Москва ",
+      "url": "seo/khamovniki-12.html"
+    },
+    {
+      "slug": "knyazhe-ozero",
+      "name": "Княжье Озеро — ГК «САПСАН»",
+      "url": "seo/knyazhe-ozero.html"
+    },
+    {
+      "slug": "knyazhevo",
+      "name": "Княжево — Княжево",
+      "url": "seo/knyazhevo.html"
+    },
+    {
+      "slug": "konakovo-river-klab",
+      "name": "Конаково Ривер Клаб — Конаково Ривер Клаб",
+      "url": "seo/konakovo-river-klab.html"
+    },
+    {
+      "slug": "kosmo-4-22",
+      "name": "Космо 4/22 — Галс-Девелопмент",
+      "url": "seo/kosmo-4-22.html"
+    },
+    {
+      "slug": "krekshino",
+      "name": "Крекшино — Крекшино",
+      "url": "seo/krekshino.html"
+    },
+    {
+      "slug": "kristall-monolit-estejt",
+      "name": "Кристалл (Монолит Эстейт) — Монолит Эстейт",
+      "url": "seo/kristall-monolit-estejt.html"
+    },
+    {
+      "slug": "kronburg",
+      "name": "Кронбург — Кронбург",
+      "url": "seo/kronburg.html"
+    },
+    {
+      "slug": "kronshtadtskij-9",
+      "name": "Кронштадтский 9 — ПИК",
+      "url": "seo/kronshtadtskij-9.html"
+    },
+    {
+      "slug": "kutuzov-siti",
+      "name": "Кутузов Сити — Plato Development",
+      "url": "seo/kutuzov-siti.html"
+    },
+    {
+      "slug": "kuznetskij-most-12-by-lalique",
+      "name": "Кузнецкий Мост 12 by Lalique — купить квартиру в центре Москвы от 132 млн ₽ | 20",
+      "url": "seo/kuznetskij-most-12-by-lalique.html"
+    },
+    {
+      "slug": "l67-leningradskoe-shosse-67",
+      "name": "L67 (Ленинградское шоссе, 67) — FORMA",
+      "url": "seo/l67-leningradskoe-shosse-67.html"
+    },
+    {
+      "slug": "lajkovo",
+      "name": "Лайково — Лайково",
+      "url": "seo/lajkovo.html"
+    },
+    {
+      "slug": "lakeside-residence",
+      "name": "Lakeside Residence — Lakeside",
+      "url": "seo/lakeside-residence.html"
+    },
+    {
+      "slug": "landshaft",
+      "name": "Ландшафт — Ландшафт",
+      "url": "seo/landshaft.html"
+    },
+    {
+      "slug": "lazurnyj-bereg",
+      "name": "Лазурный Берег — Leto Estate",
+      "url": "seo/lazurnyj-bereg.html"
+    },
+    {
+      "slug": "le-dome",
+      "name": "Le Dome — купить квартиру на Золотой Миле от 206 млн ₽ | ЛСР Москва 2026",
+      "url": "seo/le-dome.html"
+    },
+    {
+      "slug": "legenda",
+      "name": "ЖК Легенда — купить квартиру от 52 млн ₽",
+      "url": "seo/legenda.html"
+    },
+    {
+      "slug": "letovo",
+      "name": "Летово — Летово",
+      "url": "seo/letovo.html"
+    },
+    {
+      "slug": "level-zvenigorodskaya",
+      "name": "Level Звенигородская — Level Group",
+      "url": "seo/level-zvenigorodskaya.html"
+    },
+    {
+      "slug": "levenson",
+      "name": "Левенсон — Vesper",
+      "url": "seo/levenson.html"
+    },
+    {
+      "slug": "lion",
+      "name": "Лион — Газпромбанк",
+      "url": "seo/lion.html"
+    },
+    {
+      "slug": "luce",
+      "name": "LUCE — MR Group",
+      "url": "seo/luce.html"
+    },
+    {
+      "slug": "madison-park-medison-park",
+      "name": "Madison Park (Мэдисон Парк) — Villagio Estate",
+      "url": "seo/madison-park-medison-park.html"
+    },
+    {
+      "slug": "malaya-bronnaya-15",
+      "name": "Малая Бронная, 15 — По запросу",
+      "url": "seo/malaya-bronnaya-15.html"
+    },
+    {
+      "slug": "malenkaya-italiya",
+      "name": "Маленькая Италия — Маленькая Италия",
+      "url": "seo/malenkaya-italiya.html"
+    },
+    {
+      "slug": "maslovo-forest-club",
+      "name": "Маслово Forest Club — Галс-Девелопмент",
+      "url": "seo/maslovo-forest-club.html"
+    },
+    {
+      "slug": "metsenat",
+      "name": "Меценат — Торгпродуктсервис",
+      "url": "seo/metsenat.html"
+    },
+    {
+      "slug": "millennium-park-millenium-park",
+      "name": "Millennium Park (Миллениум Парк) — Villagio Estate",
+      "url": "seo/millennium-park-millenium-park.html"
+    },
+    {
+      "slug": "mod",
+      "name": "MOD — MR Group",
+      "url": "seo/mod.html"
+    },
+    {
+      "slug": "molodenovo",
+      "name": "Молоденово — Молоденово",
+      "url": "seo/molodenovo.html"
+    },
+    {
+      "slug": "monakovo",
+      "name": "Монаково — Leto Estate",
+      "url": "seo/monakovo.html"
+    },
+    {
+      "slug": "monolit",
+      "name": "Монолит — Монолит Эстейт",
+      "url": "seo/monolit.html"
+    },
+    {
+      "slug": "monteville-montevil",
+      "name": "Monteville (Монтевиль) — Villagio Estate",
+      "url": "seo/monteville-montevil.html"
+    },
+    {
+      "slug": "muza-krasnoarmejskaya-11",
+      "name": "Муза (Красноармейская, 11) — ГК Мангазея",
+      "url": "seo/muza-krasnoarmejskaya-11.html"
+    },
+    {
+      "slug": "nabokov",
+      "name": "Набоков — По запросу",
+      "url": "seo/nabokov.html"
+    },
+    {
+      "slug": "nachalo",
+      "name": "Начало — ДОНСТРОЙ",
+      "url": "seo/nachalo.html"
+    },
+    {
+      "slug": "najtsbridzh-privat-park",
+      "name": "Найтсбридж Приват Парк — купить квартиру в Хамовниках от 248 млн ₽ | Москва 2026",
+      "url": "seo/najtsbridzh-privat-park.html"
+    },
+    {
+      "slug": "neskuchnyj-home-spa",
+      "name": "ЖК Нескучный HOME & SPA — купить квартиру от 85 млн ₽",
+      "url": "seo/neskuchnyj-home-spa.html"
+    },
+    {
+      "slug": "nikitskij-6",
+      "name": "Никитский 6 — По запросу",
+      "url": "seo/nikitskij-6.html"
+    },
+    {
+      "slug": "nikolino",
+      "name": "Николино — MIRUM",
+      "url": "seo/nikolino.html"
+    },
+    {
+      "slug": "nikolskaya-sloboda",
+      "name": "Никольская Слобода — Barnes International Realty",
+      "url": "seo/nikolskaya-sloboda.html"
+    },
+    {
+      "slug": "nikolskie-ozyora",
+      "name": "Никольские Озёра — Никольские Озёра",
+      "url": "seo/nikolskie-ozyora.html"
+    },
+    {
+      "slug": "nordik-park-nordic-park",
+      "name": "Нордик Парк (Nordic Park) — Нордик Парк",
+      "url": "seo/nordik-park-nordic-park.html"
+    },
+    {
+      "slug": "novakhovo",
+      "name": "Новахово — Новахово",
+      "url": "seo/novakhovo.html"
+    },
+    {
+      "slug": "novogorsk-7",
+      "name": "Новогорск-7 — Новогорск-7",
+      "url": "seo/novogorsk-7.html"
+    },
+    {
+      "slug": "novogorsk-klab",
+      "name": "Новогорск Клаб — СтройАльянс",
+      "url": "seo/novogorsk-klab.html"
+    },
+    {
+      "slug": "novorizhskij",
+      "name": "Новорижский — Villagio Estate",
+      "url": "seo/novorizhskij.html"
+    },
+    {
+      "slug": "novye-veshki",
+      "name": "Новые Вешки — Pacer Signature Homes (Канада)",
+      "url": "seo/novye-veshki.html"
+    },
+    {
+      "slug": "obydenskij-1",
+      "name": "Обыденский №1 — Sminex",
+      "url": "seo/obydenskij-1.html"
+    },
+    {
+      "slug": "one-tower",
+      "name": "One Tower — Мосинжпроект / MR Group",
+      "url": "seo/one-tower.html"
+    },
+    {
+      "slug": "onegino",
+      "name": "Онегино — Частный девелопер",
+      "url": "seo/onegino.html"
+    },
+    {
+      "slug": "ordynka",
+      "name": "ORDYNKA — По запросу",
+      "url": "seo/ordynka.html"
+    },
+    {
+      "slug": "ostozhenka-11",
+      "name": "Остоженка, 11 — По запросу",
+      "url": "seo/ostozhenka-11.html"
+    },
+    {
+      "slug": "ostozhenka-park-palas",
+      "name": "ЖК Остоженка Парк Палас — купить квартиру на Золотой Миле от 180 млн ₽ | Москва ",
+      "url": "seo/ostozhenka-park-palas.html"
+    },
+    {
+      "slug": "ostrov",
+      "name": "ЖК Остров — Донстрой",
+      "url": "seo/ostrov.html"
+    },
+    {
+      "slug": "palashevskij",
+      "name": "Палашевский — Sminex",
+      "url": "seo/palashevskij.html"
+    },
+    {
+      "slug": "papushevo-park",
+      "name": "Папушево Парк — ООО ТД Просвет",
+      "url": "seo/papushevo-park.html"
+    },
+    {
+      "slug": "park-avenue-park-avenyu",
+      "name": "Park Avenue (Парк Авеню) — Villagio Estate",
+      "url": "seo/park-avenue-park-avenyu.html"
+    },
+    {
+      "slug": "park-fonte-park-fonte",
+      "name": "Park Fonte (Парк Фонтэ) — Villagio Estate / ООО «Орион»",
+      "url": "seo/park-fonte-park-fonte.html"
+    },
+    {
+      "slug": "park-ville-park-vill",
+      "name": "Park Ville (Парк Вилл) — Архитектор Михаил Белов / Квинтурин",
+      "url": "seo/park-ville-park-vill.html"
+    },
+    {
+      "slug": "pavlovo-2",
+      "name": "Павлово-2 — Павлово-2",
+      "url": "seo/pavlovo-2.html"
+    },
+    {
+      "slug": "pavlovo",
+      "name": "Павлово — Павлово",
+      "url": "seo/pavlovo.html"
+    },
+    {
+      "slug": "pestovo",
+      "name": "Пестово — Leto Estate",
+      "url": "seo/pestovo.html"
+    },
+    {
+      "slug": "petrovo-dalnee",
+      "name": "Петрово-Дальнее — Петрово-Дальнее",
+      "url": "seo/petrovo-dalnee.html"
+    },
+    {
+      "slug": "pokrovskij",
+      "name": "Покровский — Villagio Estate",
+      "url": "seo/pokrovskij.html"
+    },
+    {
+      "slug": "pokrovskoe-rubtsovo",
+      "name": "Покровское-Рубцово — Покровское-Рубцово",
+      "url": "seo/pokrovskoe-rubtsovo.html"
+    },
+    {
+      "slug": "prechistenka-8",
+      "name": "Пречистенка 8 — ЦентрЖилСервис-2010",
+      "url": "seo/prechistenka-8.html"
+    },
+    {
+      "slug": "prezident",
+      "name": "Президент — Президент",
+      "url": "seo/prezident.html"
+    },
+    {
+      "slug": "prime-park",
+      "name": "ЖК Prime Park — купить квартиру у м. Динамо от 29 млн ₽ | Optima Development Мос",
+      "url": "seo/prime-park.html"
+    },
+    {
+      "slug": "prozorovo",
+      "name": "Прозорово — Прозорово",
+      "url": "seo/prozorovo.html"
+    },
+    {
+      "slug": "rajt-villadzh-wright-village",
+      "name": "Райт Вилладж (Wright Village) — АСК «Мегаполис»",
+      "url": "seo/rajt-villadzh-wright-village.html"
+    },
+    {
+      "slug": "razdory-2",
+      "name": "Раздоры-2 — Раздоры-2",
+      "url": "seo/razdory-2.html"
+    },
+    {
+      "slug": "renaissance-park-renessans-park",
+      "name": "Renaissance Park (Ренессанс Парк) — Villagio Estate",
+      "url": "seo/renaissance-park-renessans-park.html"
+    },
+    {
+      "slug": "rezidentsii-benilyuks",
+      "name": "Резиденции Бенилюкс — Villagio Estate",
+      "url": "seo/rezidentsii-benilyuks.html"
+    },
+    {
+      "slug": "rezidentsii-novogorsk",
+      "name": "Резиденции Новогорск — Пансионат Отдыха",
+      "url": "seo/rezidentsii-novogorsk.html"
+    },
+    {
+      "slug": "rezidentsiya-1864",
+      "name": "Резиденция 1864 — Сбербанк Капитал",
+      "url": "seo/rezidentsiya-1864.html"
+    },
+    {
+      "slug": "rezidentsiya-na-vsevolozhskom",
+      "name": "Резиденция на Всеволожском — По запросу",
+      "url": "seo/rezidentsiya-na-vsevolozhskom.html"
+    },
+    {
+      "slug": "rezidentsiya-rublyovo",
+      "name": "Резиденция Рублёво — Резиденция Рублёво",
+      "url": "seo/rezidentsiya-rublyovo.html"
+    },
+    {
+      "slug": "riga-femili-riga-family",
+      "name": "Рига Фэмили (Riga Family) — Рига Фэмили",
+      "url": "seo/riga-femili-riga-family.html"
+    },
+    {
+      "slug": "riverside-riversajd",
+      "name": "Riverside (Риверсайд) — Villagio Estate",
+      "url": "seo/riverside-riversajd.html"
+    },
+    {
+      "slug": "rosa",
+      "name": "ROSA — Villagio Estate",
+      "url": "seo/rosa.html"
+    },
+    {
+      "slug": "russkie-sezony",
+      "name": "Русские Сезоны — АО «СЗ ЭКРАН»",
+      "url": "seo/russkie-sezony.html"
+    },
+    {
+      "slug": "sady-majendorf",
+      "name": "Сады Майендорф — Сады Майендорф",
+      "url": "seo/sady-majendorf.html"
+    },
+    {
+      "slug": "savinovskaya-27",
+      "name": "Савиновская 27 — Level Group",
+      "url": "seo/savinovskaya-27.html"
+    },
+    {
+      "slug": "sem-kholmov-seven-hills",
+      "name": "Семь Холмов (Seven Hills) — Seven Hills",
+      "url": "seo/sem-kholmov-seven-hills.html"
+    },
+    {
+      "slug": "serdtse-stolitsy",
+      "name": "Сердце Столицы — Донстрой",
+      "url": "seo/serdtse-stolitsy.html"
+    },
+    {
+      "slug": "shabolovka-31",
+      "name": "Шаболовка, 31 — Vesper",
+      "url": "seo/shabolovka-31.html"
+    },
+    {
+      "slug": "shabolovka-34",
+      "name": "Шаболовка, 34 — Группа ЛСР",
+      "url": "seo/shabolovka-34.html"
+    },
+    {
+      "slug": "sherwood-shervud",
+      "name": "Sherwood (Шервуд) — Villagio Estate",
+      "url": "seo/sherwood-shervud.html"
+    },
+    {
+      "slug": "snegiri-eko",
+      "name": "Снегири Эко — По запросу",
+      "url": "seo/snegiri-eko.html"
+    },
+    {
+      "slug": "sobytie",
+      "name": "ЖК Событие — Донстрой",
+      "url": "seo/sobytie.html"
+    },
+    {
+      "slug": "sokolinn-park",
+      "name": "Sokolinn Park — Группа Эталон",
+      "url": "seo/sokolinn-park.html"
+    },
+    {
+      "slug": "sokolniki-park",
+      "name": "Соколники Парк — Соколники Парк",
+      "url": "seo/sokolniki-park.html"
+    },
+    {
+      "slug": "solos",
+      "name": "Solos — Dar",
+      "url": "seo/solos.html"
+    },
+    {
+      "slug": "stoleshnikov-7",
+      "name": "Столешников 7 — ВМС Девелопмент",
+      "url": "seo/stoleshnikov-7.html"
+    },
+    {
+      "slug": "stolnoe",
+      "name": "Столное — Столное",
+      "url": "seo/stolnoe.html"
+    },
+    {
+      "slug": "stone-grain",
+      "name": "STONE Grain — STONE",
+      "url": "seo/stone-grain.html"
+    },
+    {
+      "slug": "stone-rise",
+      "name": "STONE Rise — STONE",
+      "url": "seo/stone-rise.html"
+    },
+    {
+      "slug": "stone-sokolniki",
+      "name": "STONE Sokolniki — STONE",
+      "url": "seo/stone-sokolniki.html"
+    },
+    {
+      "slug": "tatarskaya-35",
+      "name": "ЖК Татарская 35 — купить квартиру в Замоскворечье от 70 млн ₽ | Донстрой Москва ",
+      "url": "seo/tatarskaya-35.html"
+    },
+    {
+      "slug": "tessinskij-1",
+      "name": "Тессинский, 1 — Стрелецкая Слобода",
+      "url": "seo/tessinskij-1.html"
+    },
+    {
+      "slug": "the-residences-at-mandarin-oriental-moscow",
+      "name": "Mandarin Oriental Moscow — купить резиденцию на Балчуге | Capital Group Москва 2",
+      "url": "seo/the-residences-at-mandarin-oriental-moscow.html"
+    },
+    {
+      "slug": "the-residences-at-mandarin-oriental",
+      "name": "The Residences at Mandarin Oriental — Capital Group",
+      "url": "seo/the-residences-at-mandarin-oriental.html"
+    },
+    {
+      "slug": "tretya-okhota",
+      "name": "Третья Охота — Третья Охота",
+      "url": "seo/tretya-okhota.html"
+    },
+    {
+      "slug": "truvil",
+      "name": "Трувиль — ГК «МИРУМ»",
+      "url": "seo/truvil.html"
+    },
+    {
+      "slug": "turandot-residences",
+      "name": "Turandot Residences — купить квартиру на Арбате от 146 млн ₽ | Москва 2026",
+      "url": "seo/turandot-residences.html"
+    },
+    {
+      "slug": "turgenev",
+      "name": "Тургенев — NeoStroy",
+      "url": "seo/turgenev.html"
+    },
+    {
+      "slug": "u2-yutu",
+      "name": "U2 (ЮТУ) — ГК Точно",
+      "url": "seo/u2-yutu.html"
+    },
+    {
+      "slug": "ultimacity",
+      "name": "ULTIMAcity — ГК КОРТРОС",
+      "url": "seo/ultimacity.html"
+    },
+    {
+      "slug": "usadba-bergov",
+      "name": "Усадьба Бергов — Усадьба Бергов",
+      "url": "seo/usadba-bergov.html"
+    },
+    {
+      "slug": "usadba-demidova-novaya-basmannaya-26",
+      "name": "Усадьба Демидова (Новая Басманная, 26) — MR Group",
+      "url": "seo/usadba-demidova-novaya-basmannaya-26.html"
+    },
+    {
+      "slug": "usadby-usovo",
+      "name": "Усадьбы Усово — Усадьбы Усово",
+      "url": "seo/usadby-usovo.html"
+    },
+    {
+      "slug": "uspenskie-dachi",
+      "name": "Успенские Дачи — Успенские Дачи",
+      "url": "seo/uspenskie-dachi.html"
+    },
+    {
+      "slug": "vernadskogo-10",
+      "name": "Вернадского, 10 — Capital Group",
+      "url": "seo/vernadskogo-10.html"
+    },
+    {
+      "slug": "vesper-kutuzovskij",
+      "name": "Vesper Кутузовский — Vesper",
+      "url": "seo/vesper-kutuzovskij.html"
+    },
+    {
+      "slug": "vesper-tverskaya",
+      "name": "Vesper Tverskaya — купить апартаменты на Тверской от 100 млн ₽ | Москва 2026",
+      "url": "seo/vesper-tverskaya.html"
+    },
+    {
+      "slug": "villa-grace",
+      "name": "Villa Grace — Стройтэкс",
+      "url": "seo/villa-grace.html"
+    },
+    {
+      "slug": "villa-links-villa-links",
+      "name": "Вилла Линкс (Villa Links) — Villa Links",
+      "url": "seo/villa-links-villa-links.html"
+    },
+    {
+      "slug": "vishnyovyj-sad",
+      "name": "Вишнёвый сад — АБ Девелопмент",
+      "url": "seo/vishnyovyj-sad.html"
+    },
+    {
+      "slug": "vision",
+      "name": "VISION — Villagio Estate",
+      "url": "seo/vision.html"
+    },
+    {
+      "slug": "vtoroj-nagatinskij",
+      "name": "Второй Нагатинский — ПИК",
+      "url": "seo/vtoroj-nagatinskij.html"
+    },
+    {
+      "slug": "west-garden",
+      "name": "West Garden — Sminex",
+      "url": "seo/west-garden.html"
+    },
+    {
+      "slug": "woodside-residence",
+      "name": "Woodside Residence — Woodside",
+      "url": "seo/woodside-residence.html"
+    },
+    {
+      "slug": "zakharkovo",
+      "name": "Захарково — Захарково",
+      "url": "seo/zakharkovo.html"
+    },
+    {
+      "slug": "zapadnaya-rezidentsiya",
+      "name": "Западная резиденция — MirLand Development",
+      "url": "seo/zapadnaya-rezidentsiya.html"
+    },
+    {
+      "slug": "zhizn-na-plyushchikhe",
+      "name": "Жизнь на Плющихе — Донстрой",
+      "url": "seo/zhizn-na-plyushchikhe.html"
+    },
+    {
+      "slug": "zhukovka-2",
+      "name": "Жуковка-2 — Жуковка-2",
+      "url": "seo/zhukovka-2.html"
+    },
+    {
+      "slug": "zhukovka-xxi",
+      "name": "Жуковка XXI — Metrium Premium",
+      "url": "seo/zhukovka-xxi.html"
+    },
+    {
+      "slug": "zolotoj-gorod",
+      "name": "Золотой город — Архитекторы С. Эстрин и А. Златкин / Leto Estate",
+      "url": "seo/zolotoj-gorod.html"
+    },
+    {
+      "slug": "zolotoj",
+      "name": "Золотой — Capital Group",
+      "url": "seo/zolotoj.html"
+    }
+  ]
+}
