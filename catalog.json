@@ -95,18 +95,6 @@
       "name": "Достижение",
       "developer": "Sminex",
       "url": "premium/dostizhenie/"
-    },
-    {
-      "slug": "chistye-prudy",
-      "name": "Чистые пруды",
-      "developer": "Sminex",
-      "url": "premium/chistye-prudy/"
-    },
-    {
-      "slug": "dom-na-ostozhenke",
-      "name": "Дом на Остоженке",
-      "developer": "Sminex",
-      "url": "premium/dom-na-ostozhenke/"
     }
   ],
   "seo": [
