@@ -2,20 +2,20 @@
   "premium": [
     {
       "slug": "brusov",
-      "name": "Брюсов переулок",
-      "developer": "Sminex",
+      "name": "Брюсов",
+      "developer": "VOS'HOD",
       "url": "premium/brusov/"
     },
     {
       "slug": "bvlgari",
       "name": "Bvlgari Hotel & Residences",
-      "developer": "Mosrealstroy",
+      "developer": "Wainbridge / MR Group",
       "url": "premium/bvlgari/"
     },
     {
       "slug": "clos17",
       "name": "Clos 17",
-      "developer": "Sminex",
+      "developer": "MR Group",
       "url": "premium/clos17/"
     },
     {
@@ -39,7 +39,7 @@
     {
       "slug": "nicole",
       "name": "Nicole",
-      "developer": "Sminex",
+      "developer": "MR Private",
       "url": "premium/nicole/"
     },
     {
@@ -51,14 +51,62 @@
     {
       "slug": "phantom",
       "name": "Phantom",
-      "developer": "Sminex",
+      "developer": "Sense Development",
       "url": "premium/phantom/"
     },
     {
       "slug": "tishinskiy",
-      "name": "Тишинский",
+      "name": "Тишинский бульвар",
       "developer": "Sminex",
       "url": "premium/tishinskiy/"
+    },
+    {
+      "slug": "palashevskiy-11",
+      "name": "Палашёвский 11",
+      "developer": "Sminex",
+      "url": "premium/palashevskiy-11/"
+    },
+    {
+      "slug": "fon-dessin",
+      "name": "Фон Дессин",
+      "developer": "Sminex",
+      "url": "premium/fon-dessin/"
+    },
+    {
+      "slug": "ilyinka",
+      "name": "Ильинка 3/8",
+      "developer": "Sminex",
+      "url": "premium/ilyinka/"
+    },
+    {
+      "slug": "foriver",
+      "name": "Foriver",
+      "developer": "Sminex",
+      "url": "premium/foriver/"
+    },
+    {
+      "slug": "west-garden",
+      "name": "West Garden",
+      "developer": "Sminex",
+      "url": "premium/west-garden/"
+    },
+    {
+      "slug": "dostizhenie",
+      "name": "Достижение",
+      "developer": "Sminex",
+      "url": "premium/dostizhenie/"
+    },
+    {
+      "slug": "chistye-prudy",
+      "name": "Чистые пруды",
+      "developer": "Sminex",
+      "url": "premium/chistye-prudy/"
+    },
+    {
+      "slug": "dom-na-ostozhenke",
+      "name": "Дом на Остоженке",
+      "developer": "Sminex",
+      "url": "premium/dom-na-ostozhenke/"
     }
   ],
   "seo": [
